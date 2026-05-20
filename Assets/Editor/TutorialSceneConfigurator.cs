@@ -177,7 +177,7 @@ namespace CODEX.Editor
             }
 
             string[] platformPrefixes = { "Ground_", "Plataforma_", "Suelo_", "FallingPlatform_" };
-            var allGOs = Object.FindObjectsByType<BoxCollider2D>(FindObjectsSortMode.None);
+            var allGOs = Object.FindObjectsByType<BoxCollider2D>(FindObjectsInactive.Exclude);
             int count = 0;
 
             foreach (var bc in allGOs)

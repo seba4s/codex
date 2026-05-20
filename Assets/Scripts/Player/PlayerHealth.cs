@@ -46,7 +46,7 @@ namespace CODEX.Player
         private void Start()
         {
             currentHP = maxHP;
-            cameraFollow = FindFirstObjectByType<CameraFollow>();
+            cameraFollow = FindAnyObjectByType<CameraFollow>();
         }
 
         // ═══════════════════════════════════════════
