@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: e50faece73c496b468a12e54c7895ff8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6912625145960086428
+    second: perritocompleto_0
+  - first:
+      213: 6083533497004784421
+    second: perritocompleto_1
+  - first:
+      213: 9033708641178227269
+    second: perritocompleto_2
+  - first:
+      213: -6351525520459792025
+    second: perritocompleto_3
+  - first:
+      213: 1949131112699055335
+    second: perritocompleto_4
+  - first:
+      213: -2237076681441720091
+    second: perritocompleto_5
+  - first:
+      213: 6303367599148275551
+    second: perritocompleto_6
+  - first:
+      213: -912270383956390107
+    second: perritocompleto_7
+  - first:
+      213: -885593490916782198
+    second: perritocompleto_8
+  - first:
+      213: 7280400986297420449
+    second: perritocompleto_9
+  - first:
+      213: 5206413843939892784
+    second: perritocompleto_10
+  - first:
+      213: -3852177228131371492
+    second: perritocompleto_11
+  - first:
+      213: -8135187523496595583
+    second: perritocompleto_12
+  - first:
+      213: 4175998970749643113
+    second: perritocompleto_13
+  - first:
+      213: 180624550584069158
+    second: perritocompleto_14
+  - first:
+      213: 3653141130315518801
+    second: perritocompleto_15
+  - first:
+      213: -4904489446263426797
+    second: perritocompleto_16
+  - first:
+      213: -1445722200225413342
+    second: perritocompleto_17
+  - first:
+      213: 6187115140744656886
+    second: perritocompleto_18
+  - first:
+      213: 3393218484778393050
+    second: perritocompleto_19
+  - first:
+      213: 1714795091709521112
+    second: perritocompleto_20
+  - first:
+      213: 6278938886564634536
+    second: perritocompleto_21
+  - first:
+      213: 6543722461713540312
+    second: perritocompleto_22
+  - first:
+      213: 7067118394608674261
+    second: perritocompleto_23
+  - first:
+      213: 8887934334540278773
+    second: perritocompleto_24
+  - first:
+      213: -4150917908858318501
+    second: perritocompleto_25
+  - first:
+      213: 909236579749484689
+    second: perritocompleto_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: perritocompleto_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 134
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b326212f39eef50800000000000000
+      internalID: 6912625145960086428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 134
+        width: 76
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bf82ccb7d0d6450800000000000000
+      internalID: 6083533497004784421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 131
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5421ec1852e2e5d70800000000000000
+      internalID: 9033708641178227269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 134
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7618a23e039dad7a0800000000000000
+      internalID: -6351525520459792025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 135
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecc6198b64bc0b10800000000000000
+      internalID: 1949131112699055335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 134
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e84b5b5c9e44f0e0800000000000000
+      internalID: -2237076681441720091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_6
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 135
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5790fb4f6f0a7750800000000000000
+      internalID: 6303367599148275551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_7
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 134
+        width: 81
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f8b215be6f653f0800000000000000
+      internalID: -912270383956390107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_8
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 134
+        width: 80
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fc18e796db5b3f0800000000000000
+      internalID: -885593490916782198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 134
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa49a2bf1e290560800000000000000
+      internalID: 7280400986297420449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_10
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 135
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e96b96ec5e04840800000000000000
+      internalID: 5206413843939892784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_11
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 136
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16716188315a8ac0800000000000000
+      internalID: -3852177228131371492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 43
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fabc8ac020a1f80800000000000000
+      internalID: -8135187523496595583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 39
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969ede140f024f930800000000000000
+      internalID: 4175998970749643113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 37
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c274f5215b18200800000000000000
+      internalID: 180624550584069158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_15
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 36
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15353dab08092b230800000000000000
+      internalID: 3653141130315518801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 77
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311f0de65d0cfebb0800000000000000
+      internalID: -4904489446263426797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 34
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2270ba39153cfebe0800000000000000
+      internalID: -1445722200225413342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_18
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 34
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7b684907c0dd550800000000000000
+      internalID: 6187115140744656886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_19
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 39
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add518edb32271f20800000000000000
+      internalID: 3393218484778393050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_20
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 64
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcedefec0d2cc710800000000000000
+      internalID: 1714795091709521112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_21
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 39
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af521c66a5432750800000000000000
+      internalID: 6278938886564634536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 40
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d42e27a8e8ffca50800000000000000
+      internalID: 6543722461713540312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_23
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 40
+        width: 77
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d567489cb2731260800000000000000
+      internalID: 7067118394608674261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_24
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 35
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb654ddf29485b70800000000000000
+      internalID: 8887934334540278773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_25
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 40
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5151b6872af466c0800000000000000
+      internalID: -4150917908858318501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perritocompleto_26
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 40
+        width: 67
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19852c81ad14e9c00800000000000000
+      internalID: 909236579749484689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      perritocompleto_0: 6912625145960086428
+      perritocompleto_1: 6083533497004784421
+      perritocompleto_10: 5206413843939892784
+      perritocompleto_11: -3852177228131371492
+      perritocompleto_12: -8135187523496595583
+      perritocompleto_13: 4175998970749643113
+      perritocompleto_14: 180624550584069158
+      perritocompleto_15: 3653141130315518801
+      perritocompleto_16: -4904489446263426797
+      perritocompleto_17: -1445722200225413342
+      perritocompleto_18: 6187115140744656886
+      perritocompleto_19: 3393218484778393050
+      perritocompleto_2: 9033708641178227269
+      perritocompleto_20: 1714795091709521112
+      perritocompleto_21: 6278938886564634536
+      perritocompleto_22: 6543722461713540312
+      perritocompleto_23: 7067118394608674261
+      perritocompleto_24: 8887934334540278773
+      perritocompleto_25: -4150917908858318501
+      perritocompleto_26: 909236579749484689
+      perritocompleto_3: -6351525520459792025
+      perritocompleto_4: 1949131112699055335
+      perritocompleto_5: -2237076681441720091
+      perritocompleto_6: 6303367599148275551
+      perritocompleto_7: -912270383956390107
+      perritocompleto_8: -885593490916782198
+      perritocompleto_9: 7280400986297420449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

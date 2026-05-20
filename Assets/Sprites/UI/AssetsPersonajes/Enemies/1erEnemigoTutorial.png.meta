@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: ece2da969dc7c7448b1983a79869868f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2502002408333326848
+    second: 1erEnemigoTutorial_0
+  - first:
+      213: 5122320158839232404
+    second: 1erEnemigoTutorial_1
+  - first:
+      213: -7136278265041140311
+    second: 1erEnemigoTutorial_2
+  - first:
+      213: -1664602001419044721
+    second: 1erEnemigoTutorial_3
+  - first:
+      213: -8389305939090948391
+    second: 1erEnemigoTutorial_4
+  - first:
+      213: -6706425011360825284
+    second: 1erEnemigoTutorial_5
+  - first:
+      213: -3323182554933007783
+    second: 1erEnemigoTutorial_6
+  - first:
+      213: -500323250548384650
+    second: 1erEnemigoTutorial_7
+  - first:
+      213: 1264974992379340812
+    second: 1erEnemigoTutorial_8
+  - first:
+      213: -6489302453096725901
+    second: 1erEnemigoTutorial_9
+  - first:
+      213: -2682725855576531367
+    second: 1erEnemigoTutorial_10
+  - first:
+      213: -1812634521750307477
+    second: 1erEnemigoTutorial_11
+  - first:
+      213: 6761550014218493413
+    second: 1erEnemigoTutorial_12
+  - first:
+      213: -1947201498780171607
+    second: 1erEnemigoTutorial_13
+  - first:
+      213: -3165076110932608127
+    second: 1erEnemigoTutorial_14
+  - first:
+      213: -6370505484386525420
+    second: 1erEnemigoTutorial_15
+  - first:
+      213: -5000382246513316754
+    second: 1erEnemigoTutorial_16
+  - first:
+      213: -1525196755642054442
+    second: 1erEnemigoTutorial_17
+  - first:
+      213: -7359668020216375028
+    second: 1erEnemigoTutorial_18
+  - first:
+      213: 1545533880254706725
+    second: 1erEnemigoTutorial_19
+  - first:
+      213: -3667953337267555453
+    second: 1erEnemigoTutorial_20
+  - first:
+      213: 7405875502363838911
+    second: 1erEnemigoTutorial_21
+  - first:
+      213: 6508696867859223945
+    second: 1erEnemigoTutorial_22
+  - first:
+      213: -9106149900646632644
+    second: 1erEnemigoTutorial_23
+  - first:
+      213: -8916763047403552577
+    second: 1erEnemigoTutorial_24
+  - first:
+      213: -3871819194484319421
+    second: 1erEnemigoTutorial_25
+  - first:
+      213: 6802864300109848576
+    second: 1erEnemigoTutorial_26
+  - first:
+      213: 8308819461762145601
+    second: 1erEnemigoTutorial_27
+  - first:
+      213: 910824689087979752
+    second: 1erEnemigoTutorial_28
+  - first:
+      213: -5782746775459179684
+    second: 1erEnemigoTutorial_29
+  - first:
+      213: 5375460998717890133
+    second: 1erEnemigoTutorial_30
+  - first:
+      213: 8334563178617959127
+    second: 1erEnemigoTutorial_31
+  - first:
+      213: -5067858358819671843
+    second: 1erEnemigoTutorial_32
+  - first:
+      213: -4681340660864182420
+    second: 1erEnemigoTutorial_33
+  - first:
+      213: 2134414674421659021
+    second: 1erEnemigoTutorial_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a31e72fe5e8b220800000000000000
+      internalID: 2502002408333326848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 127
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4975f659b03261740800000000000000
+      internalID: 5122320158839232404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 126
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5c1e14ab8d6fc90800000000000000
+      internalID: -7136278265041140311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 127
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8873059c4526e8e0800000000000000
+      internalID: -1664602001419044721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 97
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cd13a87ae7e09f0800000000000000
+      internalID: -500323250548384650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 95
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08e58ead081e8110800000000000000
+      internalID: 1264974992379340812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 94
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372491bfccd51f5a0800000000000000
+      internalID: -6489302453096725901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 95
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95eda9c4c0b05cad0800000000000000
+      internalID: -2682725855576531367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 61
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b79c0eb046314d0800000000000000
+      internalID: -3165076110932608127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 62
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f967ba30b6797a0800000000000000
+      internalID: -6370505484386525420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 61
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c676707d21b9ab0800000000000000
+      internalID: -5000382246513316754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 63
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8806fa1a965dae0800000000000000
+      internalID: -1525196755642054442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98552771159835a50800000000000000
+      internalID: 6508696867859223945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 19
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33bf7c69e470a180800000000000000
+      internalID: -9106149900646632644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 19
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb08e2d504b414480800000000000000
+      internalID: -8916763047403552577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 19
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b1936d4f8844ac0800000000000000
+      internalID: -3871819194484319421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 19
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000eb3fa901a86e50800000000000000
+      internalID: 6802864300109848576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 21
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d5f29474bde4370800000000000000
+      internalID: 8308819461762145601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 18
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153a13494e1cfde4b80d4a5c4b09888b
+      internalID: 910824689087979752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1erEnemigoTutorial_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 18
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0634ca60362084a93f75ed1c87f848
+      internalID: -5782746775459179684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ae4322ec2a81d3641aa0b34450a661df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1erEnemigoTutorial_0: 2502002408333326848
+      1erEnemigoTutorial_1: 5122320158839232404
+      1erEnemigoTutorial_10: -2682725855576531367
+      1erEnemigoTutorial_11: -1812634521750307477
+      1erEnemigoTutorial_12: 6761550014218493413
+      1erEnemigoTutorial_13: -1947201498780171607
+      1erEnemigoTutorial_14: -3165076110932608127
+      1erEnemigoTutorial_15: -6370505484386525420
+      1erEnemigoTutorial_16: -5000382246513316754
+      1erEnemigoTutorial_17: -1525196755642054442
+      1erEnemigoTutorial_18: -7359668020216375028
+      1erEnemigoTutorial_19: 1545533880254706725
+      1erEnemigoTutorial_2: -7136278265041140311
+      1erEnemigoTutorial_20: -3667953337267555453
+      1erEnemigoTutorial_21: 7405875502363838911
+      1erEnemigoTutorial_22: 6508696867859223945
+      1erEnemigoTutorial_23: -9106149900646632644
+      1erEnemigoTutorial_24: -8916763047403552577
+      1erEnemigoTutorial_25: -3871819194484319421
+      1erEnemigoTutorial_26: 6802864300109848576
+      1erEnemigoTutorial_27: 8308819461762145601
+      1erEnemigoTutorial_28: -8389305939090948391
+      1erEnemigoTutorial_29: -6706425011360825284
+      1erEnemigoTutorial_3: -1664602001419044721
+      1erEnemigoTutorial_30: 5375460998717890133
+      1erEnemigoTutorial_31: 8334563178617959127
+      1erEnemigoTutorial_32: -5067858358819671843
+      1erEnemigoTutorial_33: -4681340660864182420
+      1erEnemigoTutorial_34: 2134414674421659021
+      1erEnemigoTutorial_35: -933406844
+      1erEnemigoTutorial_6: -3323182554933007783
+      1erEnemigoTutorial_7: -500323250548384650
+      1erEnemigoTutorial_8: 1264974992379340812
+      1erEnemigoTutorial_9: -6489302453096725901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

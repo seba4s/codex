@@ -1,0 +1,3066 @@
+fileFormatVersion: 2
+guid: df80b4c9f5a740c4d99a3df979491bed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3482307836456774043
+    second: players blue x2_0
+  - first:
+      213: 3928292140169215581
+    second: players blue x2_1
+  - first:
+      213: -2205706319826307978
+    second: players blue x2_2
+  - first:
+      213: -2571709433908624807
+    second: players blue x2_3
+  - first:
+      213: 77051143012775586
+    second: players blue x2_4
+  - first:
+      213: -372862644943860230
+    second: players blue x2_5
+  - first:
+      213: 2973862680581433675
+    second: players blue x2_6
+  - first:
+      213: -8915667492437214965
+    second: players blue x2_7
+  - first:
+      213: -5132821278231798593
+    second: players blue x2_8
+  - first:
+      213: -844814121271025708
+    second: players blue x2_9
+  - first:
+      213: -5752040657354247570
+    second: players blue x2_10
+  - first:
+      213: 8522065335455037948
+    second: players blue x2_11
+  - first:
+      213: -6654665636200754899
+    second: players blue x2_12
+  - first:
+      213: 541701556701534767
+    second: players blue x2_13
+  - first:
+      213: -8378246989036663693
+    second: players blue x2_14
+  - first:
+      213: -7088146272199415242
+    second: players blue x2_15
+  - first:
+      213: -151600182495412302
+    second: players blue x2_16
+  - first:
+      213: -4982629310276951926
+    second: players blue x2_17
+  - first:
+      213: -3943022887873207733
+    second: players blue x2_18
+  - first:
+      213: 7848056339206519575
+    second: players blue x2_19
+  - first:
+      213: 2852158332236174695
+    second: players blue x2_20
+  - first:
+      213: -3811841213934543937
+    second: players blue x2_21
+  - first:
+      213: -7961646373234431619
+    second: players blue x2_22
+  - first:
+      213: 3453084007008838239
+    second: players blue x2_23
+  - first:
+      213: -7201492071726238584
+    second: players blue x2_24
+  - first:
+      213: -8972830398440389059
+    second: players blue x2_25
+  - first:
+      213: -4409220056430452793
+    second: players blue x2_26
+  - first:
+      213: 8438660000703589694
+    second: players blue x2_27
+  - first:
+      213: 2139432192759025182
+    second: players blue x2_28
+  - first:
+      213: -4112086926310471225
+    second: players blue x2_29
+  - first:
+      213: 569029097787546199
+    second: players blue x2_30
+  - first:
+      213: 5046409106002582655
+    second: players blue x2_31
+  - first:
+      213: 4656916052513388904
+    second: players blue x2_32
+  - first:
+      213: 4366333071474347162
+    second: players blue x2_33
+  - first:
+      213: 8503194791544126464
+    second: players blue x2_34
+  - first:
+      213: -8374724799626920770
+    second: players blue x2_35
+  - first:
+      213: 6233094026164042984
+    second: players blue x2_36
+  - first:
+      213: 8625913261636380459
+    second: players blue x2_37
+  - first:
+      213: 1980893256236795401
+    second: players blue x2_38
+  - first:
+      213: -3224343741028812653
+    second: players blue x2_39
+  - first:
+      213: -1627545317488600163
+    second: players blue x2_40
+  - first:
+      213: -6529539621864531433
+    second: players blue x2_41
+  - first:
+      213: 9188522773434880
+    second: players blue x2_42
+  - first:
+      213: 7071249841641762243
+    second: players blue x2_43
+  - first:
+      213: 2880780254458699099
+    second: players blue x2_44
+  - first:
+      213: 6789091737791880881
+    second: players blue x2_45
+  - first:
+      213: -8373264783832766193
+    second: players blue x2_46
+  - first:
+      213: 8850987912020285427
+    second: players blue x2_47
+  - first:
+      213: 4282871627764735726
+    second: players blue x2_48
+  - first:
+      213: 7911662828780443819
+    second: players blue x2_49
+  - first:
+      213: -7356955238949380974
+    second: players blue x2_50
+  - first:
+      213: -5674910008095186970
+    second: players blue x2_51
+  - first:
+      213: -8927587892349394440
+    second: players blue x2_52
+  - first:
+      213: -404625691421928317
+    second: players blue x2_53
+  - first:
+      213: -3231486153586848177
+    second: players blue x2_54
+  - first:
+      213: 1144365321224040703
+    second: players blue x2_55
+  - first:
+      213: 8066614986765074869
+    second: players blue x2_56
+  - first:
+      213: -4758180669809064961
+    second: players blue x2_57
+  - first:
+      213: 4100152623249802994
+    second: players blue x2_58
+  - first:
+      213: -8418447768236171344
+    second: players blue x2_59
+  - first:
+      213: 2738956109440541999
+    second: players blue x2_60
+  - first:
+      213: -6621681820735435076
+    second: players blue x2_61
+  - first:
+      213: -3787904428122879443
+    second: players blue x2_62
+  - first:
+      213: -2361395916547429103
+    second: players blue x2_63
+  - first:
+      213: -8368908073988724949
+    second: players blue x2_64
+  - first:
+      213: -9135521722544757896
+    second: players blue x2_65
+  - first:
+      213: -3089709668974504263
+    second: players blue x2_66
+  - first:
+      213: -2105645478597357542
+    second: players blue x2_67
+  - first:
+      213: -4897849201209999511
+    second: players blue x2_68
+  - first:
+      213: -7215039152748356380
+    second: players blue x2_69
+  - first:
+      213: 3060599896849652017
+    second: players blue x2_70
+  - first:
+      213: 5755941753369753739
+    second: players blue x2_71
+  - first:
+      213: -445420063793051507
+    second: players blue x2_72
+  - first:
+      213: 5031992217752731713
+    second: players blue x2_73
+  - first:
+      213: -820721517712365236
+    second: players blue x2_74
+  - first:
+      213: -5137787633525252619
+    second: players blue x2_75
+  - first:
+      213: -4382024326972090402
+    second: players blue x2_76
+  - first:
+      213: 8527395118307143833
+    second: players blue x2_77
+  - first:
+      213: 1675943105292693589
+    second: players blue x2_78
+  - first:
+      213: 8579562124024133579
+    second: players blue x2_79
+  - first:
+      213: 4062777905854738986
+    second: players blue x2_80
+  - first:
+      213: 6243420250001378667
+    second: players blue x2_81
+  - first:
+      213: 8893930743948484172
+    second: players blue x2_82
+  - first:
+      213: -644310720072833203
+    second: players blue x2_83
+  - first:
+      213: 7262648407597358268
+    second: players blue x2_84
+  - first:
+      213: 6603005733819060680
+    second: players blue x2_85
+  - first:
+      213: -5550534558042180697
+    second: players blue x2_86
+  - first:
+      213: -8826493173911862460
+    second: players blue x2_87
+  - first:
+      213: -101906612068142798
+    second: players blue x2_88
+  - first:
+      213: -2971930177751043928
+    second: players blue x2_89
+  - first:
+      213: -2459800493882383292
+    second: players blue x2_90
+  - first:
+      213: 5755449694425449365
+    second: players blue x2_91
+  - first:
+      213: 4347262961528664570
+    second: players blue x2_92
+  - first:
+      213: -8599450292553722532
+    second: players blue x2_93
+  - first:
+      213: 6113941620724961191
+    second: players blue x2_94
+  - first:
+      213: -6038123929199245076
+    second: players blue x2_95
+  - first:
+      213: -3530201757408531505
+    second: players blue x2_96
+  - first:
+      213: 2103946562101137650
+    second: players blue x2_97
+  - first:
+      213: 4405798764928488047
+    second: players blue x2_98
+  - first:
+      213: 8115393702815277064
+    second: players blue x2_99
+  - first:
+      213: -8720267117480861317
+    second: players blue x2_100
+  - first:
+      213: 663188763025241084
+    second: players blue x2_101
+  - first:
+      213: -5550558576108739916
+    second: players blue x2_102
+  - first:
+      213: -3009764702012618211
+    second: players blue x2_103
+  - first:
+      213: -5301823823478532728
+    second: players blue x2_104
+  - first:
+      213: -320660861767019785
+    second: players blue x2_105
+  - first:
+      213: 4202994706326716945
+    second: players blue x2_106
+  - first:
+      213: 83056284304993674
+    second: players blue x2_107
+  - first:
+      213: -4055546369315467497
+    second: players blue x2_108
+  - first:
+      213: 7618908235044177879
+    second: players blue x2_109
+  - first:
+      213: 2301045262902238774
+    second: players blue x2_110
+  - first:
+      213: 3960697682090896159
+    second: players blue x2_111
+  - first:
+      213: -8706884671555499168
+    second: players blue x2_112
+  - first:
+      213: -1448832840706406642
+    second: players blue x2_113
+  - first:
+      213: -5406720898929414969
+    second: players blue x2_114
+  - first:
+      213: -1938284579555799358
+    second: players blue x2_115
+  - first:
+      213: 3633960777972390170
+    second: players blue x2_116
+  - first:
+      213: 3743113513677563019
+    second: players blue x2_117
+  - first:
+      213: -2156469053027653885
+    second: players blue x2_118
+  - first:
+      213: -3686775548386764573
+    second: players blue x2_119
+  - first:
+      213: 7845857867923322789
+    second: players blue x2_120
+  - first:
+      213: 5110882419911941023
+    second: players blue x2_121
+  - first:
+      213: 9129557688041536628
+    second: players blue x2_122
+  - first:
+      213: 7803921279162482671
+    second: players blue x2_123
+  - first:
+      213: -1379153403848164972
+    second: players blue x2_124
+  - first:
+      213: 969472410024658116
+    second: players blue x2_125
+  - first:
+      213: -3804030681015040073
+    second: players blue x2_126
+  - first:
+      213: 4976465429832564873
+    second: players blue x2_127
+  - first:
+      213: 8802590292898554670
+    second: players blue x2_128
+  - first:
+      213: 4866572279623298454
+    second: players blue x2_129
+  - first:
+      213: -1192715523407051568
+    second: players blue x2_130
+  - first:
+      213: -6743823310198415370
+    second: players blue x2_131
+  - first:
+      213: -2307412701845801967
+    second: players blue x2_132
+  - first:
+      213: 6542060959709919951
+    second: players blue x2_133
+  - first:
+      213: 3534478375898192206
+    second: players blue x2_134
+  - first:
+      213: 6550310640393173205
+    second: players blue x2_135
+  - first:
+      213: 2788222839103011792
+    second: players blue x2_136
+  - first:
+      213: 5188042449126139288
+    second: players blue x2_137
+  - first:
+      213: 7789199484630992999
+    second: players blue x2_138
+  - first:
+      213: -3967857830329203170
+    second: players blue x2_139
+  - first:
+      213: -6933033010912979190
+    second: players blue x2_140
+  - first:
+      213: -3563784893619689766
+    second: players blue x2_141
+  - first:
+      213: -1980655967348315548
+    second: players blue x2_142
+  - first:
+      213: 3456785954365843280
+    second: players blue x2_143
+  - first:
+      213: 1137862057370249140
+    second: players blue x2_144
+  - first:
+      213: -8355509273354740661
+    second: players blue x2_145
+  - first:
+      213: 5114175108315762110
+    second: players blue x2_146
+  - first:
+      213: 1475980247665183568
+    second: players blue x2_147
+  - first:
+      213: 376282779125998938
+    second: players blue x2_148
+  - first:
+      213: 6206317685525740949
+    second: players blue x2_149
+  - first:
+      213: 5070138219240888634
+    second: players blue x2_150
+  - first:
+      213: 8170461419956767796
+    second: players blue x2_151
+  - first:
+      213: 8406126480312874890
+    second: players blue x2_152
+  - first:
+      213: -5307339857999661726
+    second: players blue x2_153
+  - first:
+      213: -573728239108895623
+    second: players blue x2_154
+  - first:
+      213: 33817170472838085
+    second: players blue x2_155
+  - first:
+      213: -6366160729725591521
+    second: players blue x2_156
+  - first:
+      213: 2349511307323668095
+    second: players blue x2_157
+  - first:
+      213: 4635462788099970462
+    second: players blue x2_158
+  - first:
+      213: -387347934839222972
+    second: players blue x2_159
+  - first:
+      213: 5374952494459422993
+    second: players blue x2_160
+  - first:
+      213: 3536525894029510675
+    second: players blue x2_161
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: players blue x2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b20096e9e40824eaaa987996b8be23
+      internalID: 3482307836456774043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec294ee35886d54c86b75da7d0ad668
+      internalID: 3928292140169215581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaafc4c559e542a4f8a360ac7e306f0a
+      internalID: -2205706319826307978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338da39ca53342d4ea8e1f8f10f94aeb
+      internalID: -2571709433908624807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d0d1d1199d55646a4e485a3457a270
+      internalID: 77051143012775586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9eb2d6176a6ad4784302738051b549
+      internalID: -372862644943860230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b566729d1ca4f248a7046f5629b4461
+      internalID: 2973862680581433675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea921c0e5cd561458d73bc118daeaad
+      internalID: -8915667492437214965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c048f7146a78c544955beeeb6aa5663
+      internalID: -5132821278231798593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf1dd5e5b1b91d41bb897a873513e07
+      internalID: -844814121271025708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e55e3174d45a3a48be3e60f1a3a785a
+      internalID: -5752040657354247570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fa5d36cd4180a448111ef14ee3de2a
+      internalID: 8522065335455037948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c641d138b5491724ea62100255cf8caa
+      internalID: -6654665636200754899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723c39b7022aa6540977173da94bf0b8
+      internalID: 541701556701534767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e48d1c3b422d74c995d5bac48eb677
+      internalID: -8378246989036663693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc095054ae15814e8cdaedfb73cbf76
+      internalID: -7088146272199415242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a81fd36d994c94b9afe79d0986ed34
+      internalID: -151600182495412302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39382ded242bec4479c877d29a848d6e
+      internalID: -4982629310276951926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b461d8228d802c4bb2843c1c36b20fe
+      internalID: -3943022887873207733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd4cd01ed65ba468f28015fbbb8565
+      internalID: 7848056339206519575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a154bf2446eec45bf6f65fee59c910
+      internalID: 2852158332236174695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2622fa52fa97094f8afc24dfb81efed
+      internalID: -3811841213934543937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a7f0652cfd85f4893ed8d33e3ec604
+      internalID: -7961646373234431619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c94435885d5584f847ac7abc0da97a
+      internalID: 3453084007008838239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a39677e6eec8343a4c4dc6fadd0b7a
+      internalID: -7201492071726238584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8add6e70e1645241be051754709507a
+      internalID: -8972830398440389059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0006fe4680a5941ab1763eb6f329b6
+      internalID: -4409220056430452793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de231f9acab8249adae8f6fdb50037
+      internalID: 8438660000703589694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3d5569f34ce0e4b94c5c236448038e
+      internalID: 2139432192759025182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6bd97e25d6d0d49b4620df5cf60e56
+      internalID: -4112086926310471225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26bf2f9c93081f4c988653a206f4121
+      internalID: 569029097787546199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_31
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b988d215d5281e04684094263885b13d
+      internalID: 5046409106002582655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8238c4f36c0b4fe40a56708e71e8b569
+      internalID: 4656916052513388904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7671a7241465348aa6518a746345b4
+      internalID: 4366333071474347162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f60d2cd26df914da45e718f79716cf
+      internalID: 8503194791544126464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e860c48985d0494d95a83a496448b18
+      internalID: -8374724799626920770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2739f6e28fcdb45979dd9e15af86c6
+      internalID: 6233094026164042984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b020f1822b560d84489a2546c19fdbd9
+      internalID: 8625913261636380459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf7ade351841d14d87024b42dd9b339
+      internalID: 1980893256236795401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0d70048f4db4e49942ce7307db7995
+      internalID: -3224343741028812653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296bfd738725dbf41bcfa82a16a4e1eb
+      internalID: -1627545317488600163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade3b1700f4fe9244a03ac1a01a25257
+      internalID: -6529539621864531433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281ac6cf7fb22bf4cbb3848690359aa0
+      internalID: 9188522773434880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7516521a22e6504498e1533cef5c971a
+      internalID: 7071249841641762243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba5c11972488754590ee87f0bb82dc4
+      internalID: 2880780254458699099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_45
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa9046596db2a49b7da2a5ea8c56ca
+      internalID: 6789091737791880881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd8f3cd68977e645941bcf54f66c444
+      internalID: -8373264783832766193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d10140a0db7ac498f1bd1ca2af58b0
+      internalID: 8850987912020285427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2520c090e2d0b8047bf8ff8d237a9f0f
+      internalID: 4282871627764735726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dca2c4118683144a4ac022f6dc8f60
+      internalID: 7911662828780443819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f1d3e52fa533c408b91aad8ab59227
+      internalID: -7356955238949380974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb2c12a7e388cf48b880018983edcdb
+      internalID: -5674910008095186970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f5cc1f44d2b404b9d6f59b13dd683c
+      internalID: -8927587892349394440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b8be91d70e7064f8978199a13a667f
+      internalID: -404625691421928317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e020703723751ca4b9d4f90206e151df
+      internalID: -3231486153586848177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963b0ec21d9ef1844995c64394ac22e7
+      internalID: 1144365321224040703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea091a5992328ab45be13154e99047fc
+      internalID: 8066614986765074869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150f6a66583699244877743202fcc109
+      internalID: -4758180669809064961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d73dc24128c04ea7c9c7665627b12
+      internalID: 4100152623249802994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975b340521807e34fb0971e2d9ed6add
+      internalID: -8418447768236171344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265ea183ec607bb4d8481e93789b0658
+      internalID: 2738956109440541999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4c2efdc7df0c842bef2bd3c774c692
+      internalID: -6621681820735435076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf12c8be0ea476b4e9c170de0ee2342a
+      internalID: -3787904428122879443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_63
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0639feb7efdb88a4ebeb82d8e3cd6650
+      internalID: -2361395916547429103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8ac5ce5d9a89a46a4164fe34689f07
+      internalID: -8368908073988724949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc43bdcffeaefa94ab23cc21ba9dfaff
+      internalID: -9135521722544757896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091d56b5a9ffa8a499cb1e4fea8d6a94
+      internalID: -3089709668974504263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af271100c9960c49838592936d12e40
+      internalID: -2105645478597357542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92589f0b8f075408732764617d11ec
+      internalID: -4897849201209999511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dce3e7817eb98f4db2ff49d4af3e4ab
+      internalID: -7215039152748356380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3b1e4857914684d938c22c6451f949
+      internalID: 3060599896849652017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_71
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9498ac8d5670716488c63ea036784241
+      internalID: 5755941753369753739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830d70a014ba78540bb8de901675545f
+      internalID: -445420063793051507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f6b5c824467b14b8cf4dbb60e87e5d
+      internalID: 5031992217752731713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e0826e9f01c2a43a8c02680ce6e792
+      internalID: -820721517712365236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15b44afcf3fff94bae11fa7d43042cc
+      internalID: -5137787633525252619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df5d05a5172de5489c78d9773415f39
+      internalID: -4382024326972090402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_77
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d869346c3fd294bb5db13fe5e2933f
+      internalID: 8527395118307143833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_78
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d3508b384c84d4a98de2f684f0bfe6
+      internalID: 1675943105292693589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_79
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9791b5f4c530d459fc672bbc4ecd3e
+      internalID: 8579562124024133579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7618536dcb16fdf4eb9372b0746f844a
+      internalID: 4062777905854738986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9394286e2bce004f8cea447e0bd1a22
+      internalID: 6243420250001378667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1226048afaeef9c4f9bf31a8a99b3620
+      internalID: 8893930743948484172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35af5e62eec75024391b5b0d19c3180b
+      internalID: -644310720072833203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f428da6df3c4da41b2ae4a0bab3b584
+      internalID: 7262648407597358268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b3391041fcd7a4092710f4520ffcb2
+      internalID: 6603005733819060680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_86
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b893d10a02db6046b45dbe5dec05d37
+      internalID: -5550534558042180697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_87
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5f182ee9038dd4eba1168a5d56b61d
+      internalID: -8826493173911862460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f6beb196285a04eb1935becd5f2e69
+      internalID: -101906612068142798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1753bb1b16d61844c86b53c569b36570
+      internalID: -2971930177751043928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d832bf0edc4ff2a4786250991d6680c8
+      internalID: -2459800493882383292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91401678ae8581245900919981981103
+      internalID: 5755449694425449365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1d64a3f720e6e409f228cbad580f36
+      internalID: 4347262961528664570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_93
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472b869409edf3748a37962efe23f15b
+      internalID: -8599450292553722532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_94
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770751b23bf5d7458646eef95f4618f
+      internalID: 6113941620724961191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_95
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568ad5981b35554469d4a0ae0fb1a661
+      internalID: -6038123929199245076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18fa8629fd932a4d9a5abeb1218ee99
+      internalID: -3530201757408531505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32de02f6d476a364faff578dff79e12b
+      internalID: 2103946562101137650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441be07838b0c1d49bb41c48b33974f6
+      internalID: 4405798764928488047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167a42830f440134783d79934aa1063a
+      internalID: 8115393702815277064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb5ca8485b823d4f94f074f1d739fb0
+      internalID: -8720267117480861317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_101
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b93a5460e41e7e438c7f8ef2641d11d
+      internalID: 663188763025241084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_102
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7134f8d2495180843ba6a1c9d52febbb
+      internalID: -5550558576108739916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x2_103
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6de3f9cb9a47ff439c0308b910b00ea
+      internalID: -3009764702012618211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b3927503cc69264380c4fd939e78f9d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      players blue x2_0: 3482307836456774043
+      players blue x2_1: 3928292140169215581
+      players blue x2_10: -5752040657354247570
+      players blue x2_100: -8720267117480861317
+      players blue x2_101: 663188763025241084
+      players blue x2_102: -5550558576108739916
+      players blue x2_103: -3009764702012618211
+      players blue x2_104: -5301823823478532728
+      players blue x2_105: -320660861767019785
+      players blue x2_106: 4202994706326716945
+      players blue x2_107: 83056284304993674
+      players blue x2_108: -4055546369315467497
+      players blue x2_109: 7618908235044177879
+      players blue x2_11: 8522065335455037948
+      players blue x2_110: 2301045262902238774
+      players blue x2_111: 3960697682090896159
+      players blue x2_112: -8706884671555499168
+      players blue x2_113: -1448832840706406642
+      players blue x2_114: -5406720898929414969
+      players blue x2_115: -1938284579555799358
+      players blue x2_116: 3633960777972390170
+      players blue x2_117: 3743113513677563019
+      players blue x2_118: -2156469053027653885
+      players blue x2_119: -3686775548386764573
+      players blue x2_12: -6654665636200754899
+      players blue x2_120: 7845857867923322789
+      players blue x2_121: 5110882419911941023
+      players blue x2_122: 9129557688041536628
+      players blue x2_123: 7803921279162482671
+      players blue x2_124: -1379153403848164972
+      players blue x2_125: 969472410024658116
+      players blue x2_126: -3804030681015040073
+      players blue x2_127: 4976465429832564873
+      players blue x2_128: 8802590292898554670
+      players blue x2_129: 4866572279623298454
+      players blue x2_13: 541701556701534767
+      players blue x2_130: -1192715523407051568
+      players blue x2_131: -6743823310198415370
+      players blue x2_132: -2307412701845801967
+      players blue x2_133: 6542060959709919951
+      players blue x2_134: 3534478375898192206
+      players blue x2_135: 6550310640393173205
+      players blue x2_136: 2788222839103011792
+      players blue x2_137: 5188042449126139288
+      players blue x2_138: 7789199484630992999
+      players blue x2_139: -3967857830329203170
+      players blue x2_14: -8378246989036663693
+      players blue x2_140: -6933033010912979190
+      players blue x2_141: -3563784893619689766
+      players blue x2_142: -1980655967348315548
+      players blue x2_143: 3456785954365843280
+      players blue x2_144: 1137862057370249140
+      players blue x2_145: -8355509273354740661
+      players blue x2_146: 5114175108315762110
+      players blue x2_147: 1475980247665183568
+      players blue x2_148: 376282779125998938
+      players blue x2_149: 6206317685525740949
+      players blue x2_15: -7088146272199415242
+      players blue x2_150: 5070138219240888634
+      players blue x2_151: 8170461419956767796
+      players blue x2_152: 8406126480312874890
+      players blue x2_153: -5307339857999661726
+      players blue x2_154: -573728239108895623
+      players blue x2_155: 33817170472838085
+      players blue x2_156: -6366160729725591521
+      players blue x2_157: 2349511307323668095
+      players blue x2_158: 4635462788099970462
+      players blue x2_159: -387347934839222972
+      players blue x2_16: -151600182495412302
+      players blue x2_160: 5374952494459422993
+      players blue x2_161: 3536525894029510675
+      players blue x2_17: -4982629310276951926
+      players blue x2_18: -3943022887873207733
+      players blue x2_19: 7848056339206519575
+      players blue x2_2: -2205706319826307978
+      players blue x2_20: 2852158332236174695
+      players blue x2_21: -3811841213934543937
+      players blue x2_22: -7961646373234431619
+      players blue x2_23: 3453084007008838239
+      players blue x2_24: -7201492071726238584
+      players blue x2_25: -8972830398440389059
+      players blue x2_26: -4409220056430452793
+      players blue x2_27: 8438660000703589694
+      players blue x2_28: 2139432192759025182
+      players blue x2_29: -4112086926310471225
+      players blue x2_3: -2571709433908624807
+      players blue x2_30: 569029097787546199
+      players blue x2_31: 5046409106002582655
+      players blue x2_32: 4656916052513388904
+      players blue x2_33: 4366333071474347162
+      players blue x2_34: 8503194791544126464
+      players blue x2_35: -8374724799626920770
+      players blue x2_36: 6233094026164042984
+      players blue x2_37: 8625913261636380459
+      players blue x2_38: 1980893256236795401
+      players blue x2_39: -3224343741028812653
+      players blue x2_4: 77051143012775586
+      players blue x2_40: -1627545317488600163
+      players blue x2_41: -6529539621864531433
+      players blue x2_42: 9188522773434880
+      players blue x2_43: 7071249841641762243
+      players blue x2_44: 2880780254458699099
+      players blue x2_45: 6789091737791880881
+      players blue x2_46: -8373264783832766193
+      players blue x2_47: 8850987912020285427
+      players blue x2_48: 4282871627764735726
+      players blue x2_49: 7911662828780443819
+      players blue x2_5: -372862644943860230
+      players blue x2_50: -7356955238949380974
+      players blue x2_51: -5674910008095186970
+      players blue x2_52: -8927587892349394440
+      players blue x2_53: -404625691421928317
+      players blue x2_54: -3231486153586848177
+      players blue x2_55: 1144365321224040703
+      players blue x2_56: 8066614986765074869
+      players blue x2_57: -4758180669809064961
+      players blue x2_58: 4100152623249802994
+      players blue x2_59: -8418447768236171344
+      players blue x2_6: 2973862680581433675
+      players blue x2_60: 2738956109440541999
+      players blue x2_61: -6621681820735435076
+      players blue x2_62: -3787904428122879443
+      players blue x2_63: -2361395916547429103
+      players blue x2_64: -8368908073988724949
+      players blue x2_65: -9135521722544757896
+      players blue x2_66: -3089709668974504263
+      players blue x2_67: -2105645478597357542
+      players blue x2_68: -4897849201209999511
+      players blue x2_69: -7215039152748356380
+      players blue x2_7: -8915667492437214965
+      players blue x2_70: 3060599896849652017
+      players blue x2_71: 5755941753369753739
+      players blue x2_72: -445420063793051507
+      players blue x2_73: 5031992217752731713
+      players blue x2_74: -820721517712365236
+      players blue x2_75: -5137787633525252619
+      players blue x2_76: -4382024326972090402
+      players blue x2_77: 8527395118307143833
+      players blue x2_78: 1675943105292693589
+      players blue x2_79: 8579562124024133579
+      players blue x2_8: -5132821278231798593
+      players blue x2_80: 4062777905854738986
+      players blue x2_81: 6243420250001378667
+      players blue x2_82: 8893930743948484172
+      players blue x2_83: -644310720072833203
+      players blue x2_84: 7262648407597358268
+      players blue x2_85: 6603005733819060680
+      players blue x2_86: -5550534558042180697
+      players blue x2_87: -8826493173911862460
+      players blue x2_88: -101906612068142798
+      players blue x2_89: -2971930177751043928
+      players blue x2_9: -844814121271025708
+      players blue x2_90: -2459800493882383292
+      players blue x2_91: 5755449694425449365
+      players blue x2_92: 4347262961528664570
+      players blue x2_93: -8599450292553722532
+      players blue x2_94: 6113941620724961191
+      players blue x2_95: -6038123929199245076
+      players blue x2_96: -3530201757408531505
+      players blue x2_97: 2103946562101137650
+      players blue x2_98: 4405798764928488047
+      players blue x2_99: 8115393702815277064
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

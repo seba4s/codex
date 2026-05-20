@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432f4cad7cedf71449c471b828b849ba, type: 3}
+  m_Name: Mejora_ArmaPurga
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
+  id: ' arma_purga'
+  nombreMejora: ARMA DE PURGA
+  descripcion: "Potencia el proyectil principal de C\xD3DIGO-7. Cada nivel aumenta
+    el da\xF1o de los disparos de purga y reduce el tiempo de recarga entre r\xE1fagas,
+    permitiendo eliminar archivos infectados y enemigos corruptos con mayor eficiencia."
+  icono: {fileID: -5948628859723552591, guid: 00099726ed4c6c54c934a2a70e25b773, type: 3}
+  nivelMaximo: 5
+  costosPorNivel: 280000003c000000500000006400000078000000
+  descripcionPorNivel:
+  - "Da\xF1o +10%. Cadencia base est\xE1ndar."
+  - "Da\xF1o +25%. Reduce recarga un 10%."
+  - "Da\xF1o +40%. Proyectil penetra un enemigo extra."
+  - "Da\xF1o +60%. A\xF1ade r\xE1faga de 2 disparos."
+  - "Da\xF1o +80%. Disparo cargado desbloquea purga total."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432f4cad7cedf71449c471b828b849ba, type: 3}
+  m_Name: Mejora_EscudoIntegridad
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
+  id: escudo_integridad
+  nombreMejora: ESCUDO DE INTEGRIDAD
+  descripcion: "Refuerza la coraza digital de C\xD3DIGO-7. Aumenta la salud m\xE1xima
+    y genera una capa de absorci\xF3n de da\xF1o que se recarga fuera del combate.
+    Representa el estado \xF3ptimo del sistema antivirus frente a amenazas del Ciberespacio."
+  icono: {fileID: 5368038464203107639, guid: cc67d414a7b957742aa11e0d8ab40fa5, type: 3}
+  nivelMaximo: 5
+  costosPorNivel: 32000000460000005a0000006e00000082000000
+  descripcionPorNivel:
+  - "Salud m\xE1x. +15. Escudo absorbe 5 de da\xF1o."
+  - "Salud m\xE1x. +30. Escudo absorbe 12 de da\xF1o."
+  - "Salud m\xE1x. +50. Recarga de escudo en 4 seg."
+  - "Salud m\xE1x. +70. Escudo doble capa (24 total)."
+  - "Salud m\xE1x. +100. Escudo autom\xE1tico al recibir da\xF1o cr\xEDtico"

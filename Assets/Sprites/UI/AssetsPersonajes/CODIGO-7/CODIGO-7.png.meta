@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: ac003a487a929d24997a4a3080251df4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8465686371950782984
+    second: CODIGO-7_0
+  - first:
+      213: 4300846627821908689
+    second: CODIGO-7_1
+  - first:
+      213: -6236539471962257762
+    second: CODIGO-7_2
+  - first:
+      213: 7542308947075477696
+    second: CODIGO-7_3
+  - first:
+      213: 2286683426109121815
+    second: CODIGO-7_4
+  - first:
+      213: -6044199578605147560
+    second: CODIGO-7_5
+  - first:
+      213: 707445436327559319
+    second: CODIGO-7_6
+  - first:
+      213: 3178065685825275734
+    second: CODIGO-7_7
+  - first:
+      213: -1308464933351577392
+    second: CODIGO-7_8
+  - first:
+      213: 1558370826938585306
+    second: CODIGO-7_9
+  - first:
+      213: 5585720752307770265
+    second: CODIGO-7_10
+  - first:
+      213: -5617567615267653828
+    second: CODIGO-7_11
+  - first:
+      213: -6134228839902153333
+    second: CODIGO-7_12
+  - first:
+      213: -751101794513654105
+    second: CODIGO-7_13
+  - first:
+      213: 3569310256877836334
+    second: CODIGO-7_14
+  - first:
+      213: 623947455073390679
+    second: CODIGO-7_15
+  - first:
+      213: 4983649961106907084
+    second: CODIGO-7_16
+  - first:
+      213: 7395740795163297086
+    second: CODIGO-7_17
+  - first:
+      213: -651998205449364173
+    second: CODIGO-7_18
+  - first:
+      213: -6928285344604882679
+    second: CODIGO-7_19
+  - first:
+      213: 2574252353734591516
+    second: CODIGO-7_20
+  - first:
+      213: 3987536440313728557
+    second: CODIGO-7_21
+  - first:
+      213: 9177489865611821937
+    second: CODIGO-7_22
+  - first:
+      213: -3809989591672303682
+    second: CODIGO-7_23
+  - first:
+      213: -6601195370039163641
+    second: CODIGO-7_24
+  - first:
+      213: -289061336357874880
+    second: CODIGO-7_25
+  - first:
+      213: -3589183772220061131
+    second: CODIGO-7_26
+  - first:
+      213: 2794925768618677616
+    second: CODIGO-7_27
+  - first:
+      213: -5142547152298601185
+    second: CODIGO-7_28
+  - first:
+      213: 1143796178277738107
+    second: CODIGO-7_29
+  - first:
+      213: -4354738652096270250
+    second: CODIGO-7_30
+  - first:
+      213: 8224247714963933930
+    second: CODIGO-7_31
+  - first:
+      213: 9099886603486375830
+    second: CODIGO-7_32
+  - first:
+      213: -5246672170096868766
+    second: CODIGO-7_33
+  - first:
+      213: 5120164579189827455
+    second: CODIGO-7_34
+  - first:
+      213: 6253115852379041076
+    second: CODIGO-7_35
+  - first:
+      213: 2337711044390200724
+    second: CODIGO-7_36
+  - first:
+      213: -2392671754906644469
+    second: CODIGO-7_37
+  - first:
+      213: 5891607567793311174
+    second: CODIGO-7_38
+  - first:
+      213: -8587590015531660209
+    second: CODIGO-7_39
+  - first:
+      213: -2500931422653845255
+    second: CODIGO-7_40
+  - first:
+      213: 7574070834777294497
+    second: CODIGO-7_41
+  - first:
+      213: 6059441684387554566
+    second: CODIGO-7_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CODIGO-7_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fddab38f24f7e049a1d2f523bb33d41
+      internalID: -8465686371950782984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ff0a49689a40d4286460cdf7e9b6eb
+      internalID: 4300846627821908689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68581b3e41509e4ca4332af1b2a2cb2
+      internalID: -6236539471962257762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2ec7f9f3faf234c9536c9ba4dfefda
+      internalID: 7542308947075477696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa76cce4a52fec4782956684793237f
+      internalID: 2286683426109121815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009dc5f2065a16b4aa2a5ec5f32f547c
+      internalID: -6044199578605147560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fff519b8fc69e94d8c7f471f10b4f24
+      internalID: 707445436327559319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f362361df3ed57429887f276195e5da
+      internalID: 3178065685825275734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf62c60c2a2474a8cc9e2b3ce6f367
+      internalID: -1308464933351577392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2f7933ec24d6e4193e966e9b762185
+      internalID: 1558370826938585306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b55dde218cfa574e925bc2270f776e0
+      internalID: 5585720752307770265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2942a63019c2bc4bbad06c6de92f3cd
+      internalID: -5617567615267653828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa4b47369e4ed844bbb68091dbeb451
+      internalID: -6134228839902153333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_13
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b11a2d9d2959b1419f12537ca11d7e5
+      internalID: -751101794513654105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c573a4fb825c648b2f002185341bae
+      internalID: 3569310256877836334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CODIGO-7_15
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b868259c1ab0f76489266e306d9472b6
+      internalID: 623947455073390679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2a3dcb9d826500844b3511b1f78669bf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CODIGO-7_0: -8465686371950782984
+      CODIGO-7_1: 4300846627821908689
+      CODIGO-7_10: 5585720752307770265
+      CODIGO-7_11: -5617567615267653828
+      CODIGO-7_12: -6134228839902153333
+      CODIGO-7_13: -751101794513654105
+      CODIGO-7_14: 3569310256877836334
+      CODIGO-7_15: 623947455073390679
+      CODIGO-7_16: 4983649961106907084
+      CODIGO-7_17: 7395740795163297086
+      CODIGO-7_18: -651998205449364173
+      CODIGO-7_19: -6928285344604882679
+      CODIGO-7_2: -6236539471962257762
+      CODIGO-7_20: 2574252353734591516
+      CODIGO-7_21: 3987536440313728557
+      CODIGO-7_22: 9177489865611821937
+      CODIGO-7_23: -3809989591672303682
+      CODIGO-7_24: -6601195370039163641
+      CODIGO-7_25: -289061336357874880
+      CODIGO-7_26: -3589183772220061131
+      CODIGO-7_27: 2794925768618677616
+      CODIGO-7_28: -5142547152298601185
+      CODIGO-7_29: 1143796178277738107
+      CODIGO-7_3: 7542308947075477696
+      CODIGO-7_30: -4354738652096270250
+      CODIGO-7_31: 8224247714963933930
+      CODIGO-7_32: 9099886603486375830
+      CODIGO-7_33: -5246672170096868766
+      CODIGO-7_34: 5120164579189827455
+      CODIGO-7_35: 6253115852379041076
+      CODIGO-7_36: 2337711044390200724
+      CODIGO-7_37: -2392671754906644469
+      CODIGO-7_38: 5891607567793311174
+      CODIGO-7_39: -8587590015531660209
+      CODIGO-7_4: 2286683426109121815
+      CODIGO-7_40: -2500931422653845255
+      CODIGO-7_41: 7574070834777294497
+      CODIGO-7_42: 6059441684387554566
+      CODIGO-7_5: -6044199578605147560
+      CODIGO-7_6: 707445436327559319
+      CODIGO-7_7: 3178065685825275734
+      CODIGO-7_8: -1308464933351577392
+      CODIGO-7_9: 1558370826938585306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

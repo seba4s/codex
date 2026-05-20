@@ -1,0 +1,3066 @@
+fileFormatVersion: 2
+guid: 1f53bb1c0f9999d459ca2ed5ed7cede3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6694585987811848588
+    second: players grey x2_0
+  - first:
+      213: 6418785923454782595
+    second: players grey x2_1
+  - first:
+      213: 8401727536602683528
+    second: players grey x2_2
+  - first:
+      213: -4775651168855908105
+    second: players grey x2_3
+  - first:
+      213: 6083665752432377760
+    second: players grey x2_4
+  - first:
+      213: -5745266595644872239
+    second: players grey x2_5
+  - first:
+      213: 2408772393991991397
+    second: players grey x2_6
+  - first:
+      213: 6202881729228985417
+    second: players grey x2_7
+  - first:
+      213: 7394442438214295220
+    second: players grey x2_8
+  - first:
+      213: -3244714401908992975
+    second: players grey x2_9
+  - first:
+      213: -6127362985025122711
+    second: players grey x2_10
+  - first:
+      213: -6430627668892925758
+    second: players grey x2_11
+  - first:
+      213: 7741480913191368206
+    second: players grey x2_12
+  - first:
+      213: 2689598738260964684
+    second: players grey x2_13
+  - first:
+      213: 2837656329488248426
+    second: players grey x2_14
+  - first:
+      213: 3708995227197700660
+    second: players grey x2_15
+  - first:
+      213: 2425423278836359011
+    second: players grey x2_16
+  - first:
+      213: -3849773352964363494
+    second: players grey x2_17
+  - first:
+      213: 4274312339812217928
+    second: players grey x2_18
+  - first:
+      213: 1492341102927820414
+    second: players grey x2_19
+  - first:
+      213: -3200029172488551836
+    second: players grey x2_20
+  - first:
+      213: -1073234950545169045
+    second: players grey x2_21
+  - first:
+      213: -2979504658815393522
+    second: players grey x2_22
+  - first:
+      213: 8981529342464718411
+    second: players grey x2_23
+  - first:
+      213: -1716088758049337462
+    second: players grey x2_24
+  - first:
+      213: 914828260825441577
+    second: players grey x2_25
+  - first:
+      213: 7346968440452770345
+    second: players grey x2_26
+  - first:
+      213: -4004894044172715423
+    second: players grey x2_27
+  - first:
+      213: 6442981636409236913
+    second: players grey x2_28
+  - first:
+      213: 3663181994324590839
+    second: players grey x2_29
+  - first:
+      213: 1187372362372058052
+    second: players grey x2_30
+  - first:
+      213: -341362314075933792
+    second: players grey x2_31
+  - first:
+      213: -4754836140212720599
+    second: players grey x2_32
+  - first:
+      213: -6842546150869453786
+    second: players grey x2_33
+  - first:
+      213: -8786510181839110963
+    second: players grey x2_34
+  - first:
+      213: 1072988759723213259
+    second: players grey x2_35
+  - first:
+      213: 5400603399689722170
+    second: players grey x2_36
+  - first:
+      213: 4026932871465888740
+    second: players grey x2_37
+  - first:
+      213: -3455815314344328698
+    second: players grey x2_38
+  - first:
+      213: 1181244988627983457
+    second: players grey x2_39
+  - first:
+      213: -2225827323711389151
+    second: players grey x2_40
+  - first:
+      213: 1981083877662740032
+    second: players grey x2_41
+  - first:
+      213: 5271653891458654132
+    second: players grey x2_42
+  - first:
+      213: 1959620343813310264
+    second: players grey x2_43
+  - first:
+      213: 3942021457310779241
+    second: players grey x2_44
+  - first:
+      213: 4966448479441146206
+    second: players grey x2_45
+  - first:
+      213: 7572076678193487107
+    second: players grey x2_46
+  - first:
+      213: 2940880964412162343
+    second: players grey x2_47
+  - first:
+      213: 6234124625429886295
+    second: players grey x2_48
+  - first:
+      213: 629390137080213031
+    second: players grey x2_49
+  - first:
+      213: 1656685054174769214
+    second: players grey x2_50
+  - first:
+      213: 6692465057061338188
+    second: players grey x2_51
+  - first:
+      213: -3755051801165210041
+    second: players grey x2_52
+  - first:
+      213: -607161611615793854
+    second: players grey x2_53
+  - first:
+      213: 4101798598992289947
+    second: players grey x2_54
+  - first:
+      213: -3763985245947161692
+    second: players grey x2_55
+  - first:
+      213: -2915837449809052329
+    second: players grey x2_56
+  - first:
+      213: 8067682732574785874
+    second: players grey x2_57
+  - first:
+      213: 6025322163978872474
+    second: players grey x2_58
+  - first:
+      213: 5914541674602573658
+    second: players grey x2_59
+  - first:
+      213: -7706847155374425388
+    second: players grey x2_60
+  - first:
+      213: 3636565260509225064
+    second: players grey x2_61
+  - first:
+      213: 5777262485963635940
+    second: players grey x2_62
+  - first:
+      213: -8295797980813015530
+    second: players grey x2_63
+  - first:
+      213: 8001817875202116636
+    second: players grey x2_64
+  - first:
+      213: -6313892868909921853
+    second: players grey x2_65
+  - first:
+      213: 5220078303441889217
+    second: players grey x2_66
+  - first:
+      213: 4111314807436663484
+    second: players grey x2_67
+  - first:
+      213: -1076787611426161925
+    second: players grey x2_68
+  - first:
+      213: 5620980301425254160
+    second: players grey x2_69
+  - first:
+      213: 8125890336984635298
+    second: players grey x2_70
+  - first:
+      213: 7837900243088862520
+    second: players grey x2_71
+  - first:
+      213: 5027090178850471999
+    second: players grey x2_72
+  - first:
+      213: -259071492035984778
+    second: players grey x2_73
+  - first:
+      213: -6985655066393186482
+    second: players grey x2_74
+  - first:
+      213: -963022484660829314
+    second: players grey x2_75
+  - first:
+      213: -6506858919552470517
+    second: players grey x2_76
+  - first:
+      213: -8347902043690092056
+    second: players grey x2_77
+  - first:
+      213: 1026022510913606874
+    second: players grey x2_78
+  - first:
+      213: 1502609829798976945
+    second: players grey x2_79
+  - first:
+      213: -2591849992327598007
+    second: players grey x2_80
+  - first:
+      213: 2670403667491684889
+    second: players grey x2_81
+  - first:
+      213: -6404544364202239309
+    second: players grey x2_82
+  - first:
+      213: 3753715493386046234
+    second: players grey x2_83
+  - first:
+      213: -8859241427070625434
+    second: players grey x2_84
+  - first:
+      213: -4252126319050660533
+    second: players grey x2_85
+  - first:
+      213: 1878137415080490653
+    second: players grey x2_86
+  - first:
+      213: 395155580741755223
+    second: players grey x2_87
+  - first:
+      213: 2816420157239898596
+    second: players grey x2_88
+  - first:
+      213: 515636267509458677
+    second: players grey x2_89
+  - first:
+      213: 1762772938018934571
+    second: players grey x2_90
+  - first:
+      213: -6700724188112589558
+    second: players grey x2_91
+  - first:
+      213: -2516437239097447870
+    second: players grey x2_92
+  - first:
+      213: 7600586141650663626
+    second: players grey x2_93
+  - first:
+      213: -3114818658486392720
+    second: players grey x2_94
+  - first:
+      213: -8694910965808542589
+    second: players grey x2_95
+  - first:
+      213: 2022978642545128733
+    second: players grey x2_96
+  - first:
+      213: -222221624492522714
+    second: players grey x2_97
+  - first:
+      213: -5578365502671931561
+    second: players grey x2_98
+  - first:
+      213: -8557732206653285795
+    second: players grey x2_99
+  - first:
+      213: 9029965043260437756
+    second: players grey x2_100
+  - first:
+      213: -7004062208397801090
+    second: players grey x2_101
+  - first:
+      213: -9161508470579009283
+    second: players grey x2_102
+  - first:
+      213: 1530509469916005069
+    second: players grey x2_103
+  - first:
+      213: 3543144510430361618
+    second: players grey x2_104
+  - first:
+      213: 7556780228906781900
+    second: players grey x2_105
+  - first:
+      213: 5300873917983509832
+    second: players grey x2_106
+  - first:
+      213: 41769618016742886
+    second: players grey x2_107
+  - first:
+      213: -2811820775187289570
+    second: players grey x2_108
+  - first:
+      213: -6599695250887626197
+    second: players grey x2_109
+  - first:
+      213: -1956871173070732762
+    second: players grey x2_110
+  - first:
+      213: 292184362336172066
+    second: players grey x2_111
+  - first:
+      213: -5020649545245585267
+    second: players grey x2_112
+  - first:
+      213: 1013534544662136360
+    second: players grey x2_113
+  - first:
+      213: 4356249321914276752
+    second: players grey x2_114
+  - first:
+      213: 6740709835013345335
+    second: players grey x2_115
+  - first:
+      213: 7383037393090885906
+    second: players grey x2_116
+  - first:
+      213: -6449779884727547731
+    second: players grey x2_117
+  - first:
+      213: 8876486151929386379
+    second: players grey x2_118
+  - first:
+      213: -5693049654455109417
+    second: players grey x2_119
+  - first:
+      213: 7291711024261074567
+    second: players grey x2_120
+  - first:
+      213: -8970818825567274764
+    second: players grey x2_121
+  - first:
+      213: 2049455066268699062
+    second: players grey x2_122
+  - first:
+      213: 1223107372687835437
+    second: players grey x2_123
+  - first:
+      213: 2325730200317594443
+    second: players grey x2_124
+  - first:
+      213: -2780424205419493660
+    second: players grey x2_125
+  - first:
+      213: 4181530614681031486
+    second: players grey x2_126
+  - first:
+      213: 1589372961995743242
+    second: players grey x2_127
+  - first:
+      213: -452570853738293631
+    second: players grey x2_128
+  - first:
+      213: 3723655499716145989
+    second: players grey x2_129
+  - first:
+      213: -7167812282139492662
+    second: players grey x2_130
+  - first:
+      213: -2530538868160174775
+    second: players grey x2_131
+  - first:
+      213: -5005111924478294447
+    second: players grey x2_132
+  - first:
+      213: 5457702068017742286
+    second: players grey x2_133
+  - first:
+      213: 5730906494076870537
+    second: players grey x2_134
+  - first:
+      213: -3169201054802751806
+    second: players grey x2_135
+  - first:
+      213: 7770855986615997654
+    second: players grey x2_136
+  - first:
+      213: 4863503993630047298
+    second: players grey x2_137
+  - first:
+      213: -6437383283785143724
+    second: players grey x2_138
+  - first:
+      213: 6836050382308713115
+    second: players grey x2_139
+  - first:
+      213: 1241907312412495129
+    second: players grey x2_140
+  - first:
+      213: -2557226446280032718
+    second: players grey x2_141
+  - first:
+      213: -425737027415999973
+    second: players grey x2_142
+  - first:
+      213: 1105764362237766634
+    second: players grey x2_143
+  - first:
+      213: -3906363170599664276
+    second: players grey x2_144
+  - first:
+      213: -2799210216231250142
+    second: players grey x2_145
+  - first:
+      213: -1368907388646488435
+    second: players grey x2_146
+  - first:
+      213: 6623966383250403509
+    second: players grey x2_147
+  - first:
+      213: 3879583072100636791
+    second: players grey x2_148
+  - first:
+      213: 6809632612713377026
+    second: players grey x2_149
+  - first:
+      213: 6726742055382322252
+    second: players grey x2_150
+  - first:
+      213: -3176553237746859532
+    second: players grey x2_151
+  - first:
+      213: 3326711297752400249
+    second: players grey x2_152
+  - first:
+      213: -602297686016590661
+    second: players grey x2_153
+  - first:
+      213: 4888892109237094506
+    second: players grey x2_154
+  - first:
+      213: 3509105694316957097
+    second: players grey x2_155
+  - first:
+      213: 4675670184274364758
+    second: players grey x2_156
+  - first:
+      213: 3354928951288676210
+    second: players grey x2_157
+  - first:
+      213: -1758554655920695801
+    second: players grey x2_158
+  - first:
+      213: 5342204642227203156
+    second: players grey x2_159
+  - first:
+      213: 5046991210888170451
+    second: players grey x2_160
+  - first:
+      213: -427089790139503743
+    second: players grey x2_161
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: players grey x2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf6272ab2c00664db0d868a834ddcdb
+      internalID: 6694585987811848588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72e94ba2ebcefa4788b9f681d797715
+      internalID: 6418785923454782595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2956c0ba08dd89a4c8eee6ae4830f970
+      internalID: 8401727536602683528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498f543b941a2f648938d93d4bab7232
+      internalID: -4775651168855908105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c0e9730ea4fec4f9336684297a6eb5
+      internalID: 6083665752432377760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ddadb024c91164694011c6db7bfc8c
+      internalID: -5745266595644872239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3708d94106209b64ca3e8d58eb89bf54
+      internalID: 2408772393991991397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 768
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0912510eef64a1e488e9c600aa0529e8
+      internalID: 6202881729228985417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca819f80722b0f42bc3508c46e01230
+      internalID: 7394442438214295220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0009452acae37409a8541fcff83161
+      internalID: -3244714401908992975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f10a8e5f1b9544da1da2fd9aafb4ab
+      internalID: -6127362985025122711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d02f7eab298e545b35417d84138ba3
+      internalID: -6430627668892925758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1467838dd4367454bb8f10009aca1713
+      internalID: 7741480913191368206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fd94638b4d08146910dfef61c4b12d
+      internalID: 2689598738260964684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9cf3014a5c9b84d8a5d5710ec9a563
+      internalID: 2837656329488248426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 704
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4235ff25bc73d974587c929728476052
+      internalID: 3708995227197700660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e734362ef38cd1b40845ef54e86d80aa
+      internalID: 2425423278836359011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1debfe063d4ba643ab5287fe6bf6867
+      internalID: -3849773352964363494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef990bd4f8db8574cbaa9b89eaf6ec91
+      internalID: 4274312339812217928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10b5d1b756854545906a33ca971e9d0
+      internalID: 1492341102927820414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addcd77262bec584d920d55e45fe914f
+      internalID: -3200029172488551836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369942fabadd3b14e8348c71791d5473
+      internalID: -1073234950545169045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff708d6fd2b2ec499f3e82dbaa4f97f
+      internalID: -2979504658815393522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 640
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61acb0a0709211147ae40f88c4fa5d6a
+      internalID: 8981529342464718411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9feaf0652c6080042987c9ac516e06c7
+      internalID: -1716088758049337462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e812c0123012c6459d477d7d29174c1
+      internalID: 914828260825441577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e76ce1cf58237b46b9eadc5149bf9d7
+      internalID: 7346968440452770345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db43697d4fcd1a47a13c22580419597
+      internalID: -4004894044172715423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ea37c1cf079af4b979705818e6ee06
+      internalID: 6442981636409236913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e716dd53c705134479ba702a42cb05e5
+      internalID: 3663181994324590839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7951917b854d0284089027709d885537
+      internalID: 1187372362372058052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_31
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 576
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28283df3523b1c40a0261f72d1fb985
+      internalID: -341362314075933792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483d5a6de4d131c4aa602b13de066079
+      internalID: -4754836140212720599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bcb18dc6e583045a1b5c78e45b8e0a
+      internalID: -6842546150869453786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a5561ee4a861e49802ddf5eb2d07f8
+      internalID: -8786510181839110963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de2319fc5fc0d4a9835f6e9371cfb5
+      internalID: 1072988759723213259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf5bcf00136ff4488295899a21fa8b3
+      internalID: 5400603399689722170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d042f3802c8fa6468eaf7cee0c67e59
+      internalID: 4026932871465888740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ee9c6127182354b83dc61320d1c1aa
+      internalID: -3455815314344328698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 512
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167fc252e7fbb094191416e10d1a90d0
+      internalID: 1181244988627983457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac80b652cd129f4f9a8fbd01d401532
+      internalID: -2225827323711389151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158995ab76e1e9c4e83a874c8dbb2617
+      internalID: 1981083877662740032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3514bf18ea483884c9ca87207d18d893
+      internalID: 5271653891458654132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cd635e12fe23c45a6691d80c9dec75
+      internalID: 1959620343813310264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89fd24abbfd2fd45aa7fb9098550baf
+      internalID: 3942021457310779241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_45
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9081cb00ba22d34ab7dcf3bddb3d92c
+      internalID: 4966448479441146206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352f272f7aa6c6840b2afd4246aa824a
+      internalID: 7572076678193487107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 448
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b1cfcd5189bf244ae520a08f8e0f93
+      internalID: 2940880964412162343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4b9d99da286344c9b90a76d59caafd
+      internalID: 6234124625429886295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84fe0e84c82fcb44b77ceb7b0ef6d77
+      internalID: 629390137080213031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b7b697db0626b49946c0d265bb868f
+      internalID: 1656685054174769214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020e2f4cd09024d44bc67a873b7c1a17
+      internalID: 6692465057061338188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb8b0c968525db429797f3ad7453222
+      internalID: -3755051801165210041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afcbb6f6e1616c419b8520c0717cab2
+      internalID: -607161611615793854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b11a89834142b45bbe6d3ba2c471fa
+      internalID: 4101798598992289947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 384
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb0c84682a8e494187fc6faec33a689
+      internalID: -3763985245947161692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a0a8df1e7f2b64998540c4b67b50b1
+      internalID: -2915837449809052329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f375bb263b8144b9b8c326d152d697
+      internalID: 8067682732574785874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7727e50b26829f94ca33895f81d75f4e
+      internalID: 6025322163978872474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c03778c4a05033429734378e8bca585
+      internalID: 5914541674602573658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8909269be9e1aeb4da327681b8c1edda
+      internalID: -7706847155374425388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f34345823f5644a2afec66874dd06
+      internalID: 3636565260509225064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d4cb8002e59a1419099249193fbc7a
+      internalID: 5777262485963635940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_63
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6170f20b3de1dd849968ec51f6eb84c8
+      internalID: -8295797980813015530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e5393510f32c948a835cea801fdea9
+      internalID: 8001817875202116636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfda1b341781b5442b121931c2c1fa28
+      internalID: -6313892868909921853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeec78d7df3c4d24a8b5d2fa7b2b0d3c
+      internalID: 5220078303441889217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194a810875da9604cb15ce5a3bffd43b
+      internalID: 4111314807436663484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e979c919bb604fa9f9e07058566f9
+      internalID: -1076787611426161925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a26c63c01fe7f4a8698b219103ce76
+      internalID: 5620980301425254160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71458bfe3db708449c63e638dd41e0a
+      internalID: 8125890336984635298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_71
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663dabb7267f13140b44926cdf2a8512
+      internalID: 7837900243088862520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb126315c1b1d284dad34caf3899878b
+      internalID: 5027090178850471999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502d304036488ed49add125a0070e807
+      internalID: -259071492035984778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99013c67e01378d478e5e9cb4e36a413
+      internalID: -6985655066393186482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a46af1370a1a48b44e8e9d35c2241
+      internalID: -963022484660829314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53327414c03e9641b3adf1c1ed1d881
+      internalID: -6506858919552470517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_77
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c845ee74d4d64214bb1dacffb64163f6
+      internalID: -8347902043690092056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_78
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905a86315b9ee81418661d66c64759e1
+      internalID: 1026022510913606874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_79
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 192
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23a3e308087c1c408bfa96e01f82bc2
+      internalID: 1502609829798976945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f68d4cc3291ded4cb62b1662e9ef1dc
+      internalID: -2591849992327598007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bc95348fa2a4e44b5e0887b19af6bc
+      internalID: 2670403667491684889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ad622831e37024cad5222f39a64ca3
+      internalID: -6404544364202239309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827e775d97c6f094abf253a2949669b4
+      internalID: 3753715493386046234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f96981c44ba06142ad44a007576ee5d
+      internalID: -8859241427070625434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d49922b1b0d5c49adb1bc91b66e455
+      internalID: -4252126319050660533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_86
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d155ac9741befb41b94e0b0f6b5552f
+      internalID: 1878137415080490653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_87
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 128
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c4a3a1f9a3d8498c26bb99654e05b
+      internalID: 395155580741755223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fea753f34c07954b8961b638572fd8e
+      internalID: 2816420157239898596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b121db83ab1cbc84ca83ec9d977c5b76
+      internalID: 515636267509458677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94298e4d395c1cd48b78bab9b2417a68
+      internalID: 1762772938018934571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89020fe214f78a6409195def3510da4f
+      internalID: -6700724188112589558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c1305277524a24e83340c2ae8404b8
+      internalID: -2516437239097447870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_93
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cd5c1fd001d6c4f883c1621c86eb42
+      internalID: 7600586141650663626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_94
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405c97d4cf02d934b9ab05b17fb55b44
+      internalID: -3114818658486392720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_95
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b81067326e71043a90eea5d8f6a287
+      internalID: -8694910965808542589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5364b1f5db440954b8d04b532d5701b0
+      internalID: 2022978642545128733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ccb2160062dfb42b67bc6259a41676
+      internalID: -222221624492522714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0a26b5edc425249b4f3e685ac4f608
+      internalID: -5578365502671931561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded83ab81bc64f44fb1b8354b5891303
+      internalID: -8557732206653285795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c9bb89bd41ce541b19e25c61f92683
+      internalID: 9029965043260437756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_101
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f6a8a84078e6f4aa31fed61962498f
+      internalID: -7004062208397801090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_102
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948cac7c5f3ea1b41bce232fc32e1cbf
+      internalID: -9161508470579009283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x2_103
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c591da98427d0604db766bb385a2aab4
+      internalID: 1530509469916005069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 23c2f475dc068db4cbcdde55844798f0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      players grey x2_0: 6694585987811848588
+      players grey x2_1: 6418785923454782595
+      players grey x2_10: -6127362985025122711
+      players grey x2_100: 9029965043260437756
+      players grey x2_101: -7004062208397801090
+      players grey x2_102: -9161508470579009283
+      players grey x2_103: 1530509469916005069
+      players grey x2_104: 3543144510430361618
+      players grey x2_105: 7556780228906781900
+      players grey x2_106: 5300873917983509832
+      players grey x2_107: 41769618016742886
+      players grey x2_108: -2811820775187289570
+      players grey x2_109: -6599695250887626197
+      players grey x2_11: -6430627668892925758
+      players grey x2_110: -1956871173070732762
+      players grey x2_111: 292184362336172066
+      players grey x2_112: -5020649545245585267
+      players grey x2_113: 1013534544662136360
+      players grey x2_114: 4356249321914276752
+      players grey x2_115: 6740709835013345335
+      players grey x2_116: 7383037393090885906
+      players grey x2_117: -6449779884727547731
+      players grey x2_118: 8876486151929386379
+      players grey x2_119: -5693049654455109417
+      players grey x2_12: 7741480913191368206
+      players grey x2_120: 7291711024261074567
+      players grey x2_121: -8970818825567274764
+      players grey x2_122: 2049455066268699062
+      players grey x2_123: 1223107372687835437
+      players grey x2_124: 2325730200317594443
+      players grey x2_125: -2780424205419493660
+      players grey x2_126: 4181530614681031486
+      players grey x2_127: 1589372961995743242
+      players grey x2_128: -452570853738293631
+      players grey x2_129: 3723655499716145989
+      players grey x2_13: 2689598738260964684
+      players grey x2_130: -7167812282139492662
+      players grey x2_131: -2530538868160174775
+      players grey x2_132: -5005111924478294447
+      players grey x2_133: 5457702068017742286
+      players grey x2_134: 5730906494076870537
+      players grey x2_135: -3169201054802751806
+      players grey x2_136: 7770855986615997654
+      players grey x2_137: 4863503993630047298
+      players grey x2_138: -6437383283785143724
+      players grey x2_139: 6836050382308713115
+      players grey x2_14: 2837656329488248426
+      players grey x2_140: 1241907312412495129
+      players grey x2_141: -2557226446280032718
+      players grey x2_142: -425737027415999973
+      players grey x2_143: 1105764362237766634
+      players grey x2_144: -3906363170599664276
+      players grey x2_145: -2799210216231250142
+      players grey x2_146: -1368907388646488435
+      players grey x2_147: 6623966383250403509
+      players grey x2_148: 3879583072100636791
+      players grey x2_149: 6809632612713377026
+      players grey x2_15: 3708995227197700660
+      players grey x2_150: 6726742055382322252
+      players grey x2_151: -3176553237746859532
+      players grey x2_152: 3326711297752400249
+      players grey x2_153: -602297686016590661
+      players grey x2_154: 4888892109237094506
+      players grey x2_155: 3509105694316957097
+      players grey x2_156: 4675670184274364758
+      players grey x2_157: 3354928951288676210
+      players grey x2_158: -1758554655920695801
+      players grey x2_159: 5342204642227203156
+      players grey x2_16: 2425423278836359011
+      players grey x2_160: 5046991210888170451
+      players grey x2_161: -427089790139503743
+      players grey x2_17: -3849773352964363494
+      players grey x2_18: 4274312339812217928
+      players grey x2_19: 1492341102927820414
+      players grey x2_2: 8401727536602683528
+      players grey x2_20: -3200029172488551836
+      players grey x2_21: -1073234950545169045
+      players grey x2_22: -2979504658815393522
+      players grey x2_23: 8981529342464718411
+      players grey x2_24: -1716088758049337462
+      players grey x2_25: 914828260825441577
+      players grey x2_26: 7346968440452770345
+      players grey x2_27: -4004894044172715423
+      players grey x2_28: 6442981636409236913
+      players grey x2_29: 3663181994324590839
+      players grey x2_3: -4775651168855908105
+      players grey x2_30: 1187372362372058052
+      players grey x2_31: -341362314075933792
+      players grey x2_32: -4754836140212720599
+      players grey x2_33: -6842546150869453786
+      players grey x2_34: -8786510181839110963
+      players grey x2_35: 1072988759723213259
+      players grey x2_36: 5400603399689722170
+      players grey x2_37: 4026932871465888740
+      players grey x2_38: -3455815314344328698
+      players grey x2_39: 1181244988627983457
+      players grey x2_4: 6083665752432377760
+      players grey x2_40: -2225827323711389151
+      players grey x2_41: 1981083877662740032
+      players grey x2_42: 5271653891458654132
+      players grey x2_43: 1959620343813310264
+      players grey x2_44: 3942021457310779241
+      players grey x2_45: 4966448479441146206
+      players grey x2_46: 7572076678193487107
+      players grey x2_47: 2940880964412162343
+      players grey x2_48: 6234124625429886295
+      players grey x2_49: 629390137080213031
+      players grey x2_5: -5745266595644872239
+      players grey x2_50: 1656685054174769214
+      players grey x2_51: 6692465057061338188
+      players grey x2_52: -3755051801165210041
+      players grey x2_53: -607161611615793854
+      players grey x2_54: 4101798598992289947
+      players grey x2_55: -3763985245947161692
+      players grey x2_56: -2915837449809052329
+      players grey x2_57: 8067682732574785874
+      players grey x2_58: 6025322163978872474
+      players grey x2_59: 5914541674602573658
+      players grey x2_6: 2408772393991991397
+      players grey x2_60: -7706847155374425388
+      players grey x2_61: 3636565260509225064
+      players grey x2_62: 5777262485963635940
+      players grey x2_63: -8295797980813015530
+      players grey x2_64: 8001817875202116636
+      players grey x2_65: -6313892868909921853
+      players grey x2_66: 5220078303441889217
+      players grey x2_67: 4111314807436663484
+      players grey x2_68: -1076787611426161925
+      players grey x2_69: 5620980301425254160
+      players grey x2_7: 6202881729228985417
+      players grey x2_70: 8125890336984635298
+      players grey x2_71: 7837900243088862520
+      players grey x2_72: 5027090178850471999
+      players grey x2_73: -259071492035984778
+      players grey x2_74: -6985655066393186482
+      players grey x2_75: -963022484660829314
+      players grey x2_76: -6506858919552470517
+      players grey x2_77: -8347902043690092056
+      players grey x2_78: 1026022510913606874
+      players grey x2_79: 1502609829798976945
+      players grey x2_8: 7394442438214295220
+      players grey x2_80: -2591849992327598007
+      players grey x2_81: 2670403667491684889
+      players grey x2_82: -6404544364202239309
+      players grey x2_83: 3753715493386046234
+      players grey x2_84: -8859241427070625434
+      players grey x2_85: -4252126319050660533
+      players grey x2_86: 1878137415080490653
+      players grey x2_87: 395155580741755223
+      players grey x2_88: 2816420157239898596
+      players grey x2_89: 515636267509458677
+      players grey x2_9: -3244714401908992975
+      players grey x2_90: 1762772938018934571
+      players grey x2_91: -6700724188112589558
+      players grey x2_92: -2516437239097447870
+      players grey x2_93: 7600586141650663626
+      players grey x2_94: -3114818658486392720
+      players grey x2_95: -8694910965808542589
+      players grey x2_96: 2022978642545128733
+      players grey x2_97: -222221624492522714
+      players grey x2_98: -5578365502671931561
+      players grey x2_99: -8557732206653285795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

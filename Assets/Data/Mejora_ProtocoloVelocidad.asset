@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432f4cad7cedf71449c471b828b849ba, type: 3}
+  m_Name: Mejora_ProtocoloVelocidad
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
+  id: protocolo_velocidad
+  nombreMejora: PROTOCOLO DE VELOCIDAD
+  descripcion: "Optimiza los ciclos de procesamiento internos de C\xD3DIGO-7. Incrementa
+    la velocidad de desplazamiento y la frecuencia del dash de esquive. Esencial
+    para sobrevivir en la Memoria RAM inestable y superar las secciones cronometradas."
+  icono: {fileID: -1816615210391736582, guid: 58d06c276c9d28246920a295586dafd0, type: 3}
+  nivelMaximo: 4
+  costosPorNivel: 2d000000410000005500000069000000
+  descripcionPorNivel:
+  - Velocidad de movimiento +15%.
+  - Velocidad +25%. Dash disponible cada 2 seg.
+  - "Velocidad +40%. Dash deja rastro de da\xF1o."
+  - Velocidad +60%. Triple dash consecutivo habilitado.

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+<<<<<<< HEAD
+      "Bash(npx skills *)"
+=======
+      "Bash(Select-String -Path \"C:\\\\Users\\\\juanj\\\\codex\\\\Assets\\\\Scenes\\\\MainMenu.unity\" -Pattern \"Canvas|MonoBehaviour|m_Script|missing\")",
+      "Bash(Select-Object -First 60)"
+>>>>>>> 80984f9af353416ff1d81bb9d7dd16b2ecbf7bb4
+    ]
+  }
+}

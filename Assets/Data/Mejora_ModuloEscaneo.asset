@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432f4cad7cedf71449c471b828b849ba, type: 3}
+  m_Name: Mejora_ModuloEscaneo
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
+  id: modulo_escaneo
+  nombreMejora: "M\xD3DULO DE ESCANEO"
+  descripcion: "Activa sensores de rastreo en C\xD3DIGO-7. Revela la ubicaci\xF3n
+    de datos ocultos, carpetas secretas y enemigos encubiertos dentro del mapa. Fundamental
+    para recuperar Registros Perdidos y completar misiones secundarias de exploraci\xF3n."
+  icono: {fileID: 2837930572143707470, guid: 3cd95149a1716634fa02ac1239bf1151, type: 3}
+  nivelMaximo: 4
+  costosPorNivel: 23000000370000004b0000005f000000
+  descripcionPorNivel:
+  - "Resalta datos pr\xF3ximos en radio de 3 unidades."
+  - Muestra enemigos ocultos en el mapa.
+  - Detecta carpetas secretas y rutas alternas.
+  - Escaneo global al entrar a cada zona del nivel.
