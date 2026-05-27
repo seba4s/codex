@@ -181,7 +181,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 252.7
+  orthographic size: 540
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -206,8 +206,8 @@ Transform:
   m_GameObject: {fileID: 15683284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 579.212, y: 252.9761, z: -10}
-  m_LocalScale: {x: 65.16567, y: 50.641193, z: 1}
+  m_LocalPosition: {x: 966.2809, y: 538.6534, z: -10}
+  m_LocalScale: {x: 107.17351, y: 108.44905, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -803,8 +803,8 @@ Transform:
   m_GameObject: {fileID: 625223375}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.7392, y: 322.4665, z: 0}
-  m_LocalScale: {x: 32.762028, y: 363.87445, z: 1}
+  m_LocalPosition: {x: -20.3245, y: 687.4734, z: 0}
+  m_LocalScale: {x: 53.88146, y: 779.2438, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -851,7 +851,7 @@ Transform:
   m_GameObject: {fileID: 764644373}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1096, y: 260, z: 0}
+  m_LocalPosition: {x: 1096, y: 427, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -892,13 +892,13 @@ MonoBehaviour:
   enemyType: 1
   maxHealth: 3
   damageToPlayer: 1
-  moveSpeed: 2
+  moveSpeed: 40
   attackRange: 3
   attackCooldown: 2
   dropsData: 1
   dataDropAmount: 1
   dataDropPrefab: {fileID: 0}
-  patrolDistance: 5
+  patrolDistance: 100
   patrolPoints: []
   loopPatrol: 1
   projectilePrefab: {fileID: 0}
@@ -938,7 +938,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 100
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1064,8 +1064,8 @@ Transform:
   m_GameObject: {fileID: 916218749}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1021.5808, y: 190.8161, z: 0}
-  m_LocalScale: {x: 65.16567, y: 75.9618, z: 1}
+  m_LocalPosition: {x: 1693.7457, y: 405.5319, z: 0}
+  m_LocalScale: {x: 107.17351, y: 162.67358, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1182,13 +1182,13 @@ MonoBehaviour:
   enemyType: 1
   maxHealth: 5
   damageToPlayer: 10
-  moveSpeed: 200
+  moveSpeed: 40
   attackRange: 4
   attackCooldown: 2.5
   dropsData: 1
   dataDropAmount: 1
   dataDropPrefab: {fileID: 0}
-  patrolDistance: 5
+  patrolDistance: 100
   patrolPoints: []
   loopPatrol: 1
   projectilePrefab: {fileID: 0}
@@ -1228,7 +1228,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 100
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1354,8 +1354,8 @@ Transform:
   m_GameObject: {fileID: 981208401}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 315.6, y: 196.7, z: 0}
-  m_LocalScale: {x: 263.95355, y: 264.6205, z: 1}
+  m_LocalPosition: {x: 532.7772, y: 418.1328, z: 0}
+  m_LocalScale: {x: 434.10626, y: 566.6897, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1503,7 +1503,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 5.51532, y: -1.1715549}
+  m_Offset: {x: 5.51532, y: 0.5962086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1513,7 +1513,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 12.03064, y: 3.3431098}
+  m_Size: {x: 12.03064, y: 26.628803}
   m_EdgeRadius: 0
 --- !u!4 &1005815270
 Transform:
@@ -1524,7 +1524,7 @@ Transform:
   m_GameObject: {fileID: 1005815267}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1119.3, y: 240.6, z: 0}
+  m_LocalPosition: {x: 1878, y: 486, z: 0}
   m_LocalScale: {x: 2, y: 12, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1662,8 +1662,8 @@ Transform:
   m_GameObject: {fileID: 1059851415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 632, y: 128, z: 0}
-  m_LocalScale: {x: 1263.672, y: 28.436, z: 1}
+  m_LocalPosition: {x: 1053.0895, y: 271.0054, z: 0}
+  m_LocalScale: {x: 2078.2744, y: 60.896217, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1707,7 +1707,7 @@ Transform:
   m_GameObject: {fileID: 1080102955}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 985, y: 532, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1748,13 +1748,13 @@ MonoBehaviour:
   enemyType: 1
   maxHealth: 3
   damageToPlayer: 1
-  moveSpeed: 2
+  moveSpeed: 40
   attackRange: 3
   attackCooldown: 2
   dropsData: 1
   dataDropAmount: 1
   dataDropPrefab: {fileID: 0}
-  patrolDistance: 5
+  patrolDistance: 100
   patrolPoints: []
   loopPatrol: 1
   projectilePrefab: {fileID: 0}
@@ -1794,7 +1794,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 100
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1920,8 +1920,8 @@ Transform:
   m_GameObject: {fileID: 1211914934}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 448.8808, y: 177.0161, z: 0}
-  m_LocalScale: {x: 65.16567, y: 75.9618, z: 1}
+  m_LocalPosition: {x: 751.9543, y: 375.978, z: 0}
+  m_LocalScale: {x: 107.17351, y: 162.67358, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2058,8 +2058,8 @@ Transform:
   m_GameObject: {fileID: 1291239227}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 709.5436, y: 245.1, z: 0}
-  m_LocalScale: {x: 155, y: 440.7, z: 1}
+  m_LocalPosition: {x: 1180.6079, y: 521.7859, z: 0}
+  m_LocalScale: {x: 254.91786, y: 943.7672, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2180,8 +2180,8 @@ Transform:
   m_GameObject: {fileID: 1353437001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 579.212, y: 252.9761, z: 0}
-  m_LocalScale: {x: 69.28833, y: 53.816357, z: 1}
+  m_LocalPosition: {x: 966.2809, y: 538.6534, z: 0}
+  m_LocalScale: {x: 113.95375, y: 115.24872, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2225,7 +2225,7 @@ Transform:
   m_GameObject: {fileID: 1415967227}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82, y: 212, z: 0}
+  m_LocalPosition: {x: 82, y: 488, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2262,13 +2262,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b5ed1fa379d2942897f0e607f3a5e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Systems.DataCollectible
-  dataValue: 1
-  collectRadius: 0.5
+  dataValue: 10
+  collectRadius: 3
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   collectEffectPrefab: {fileID: 0}
-  floatAmplitude: 0.1
+  floatAmplitude: 20
   floatSpeed: 2
   rotationSpeed: 90
   collectSound: {fileID: 0}
@@ -2318,8 +2318,8 @@ Transform:
   m_GameObject: {fileID: 1437182035}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 950, y: 227.6562, z: 0}
-  m_LocalScale: {x: 150, y: 150, z: 0.5}
+  m_LocalPosition: {x: 1576.0327, y: 484.4284, z: 0}
+  m_LocalScale: {x: 246.6947, y: 321.22775, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2414,13 +2414,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b5ed1fa379d2942897f0e607f3a5e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Systems.DataCollectible
-  dataValue: 1
-  collectRadius: 0.5
+  dataValue: 10
+  collectRadius: 3
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   collectEffectPrefab: {fileID: 0}
-  floatAmplitude: 0.1
+  floatAmplitude: 20
   floatSpeed: 2
   rotationSpeed: 90
   collectSound: {fileID: 0}
@@ -2470,8 +2470,8 @@ Transform:
   m_GameObject: {fileID: 1550607173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 188.2176, y: 227.6562, z: 0}
-  m_LocalScale: {x: 150, y: 150, z: 0.5}
+  m_LocalPosition: {x: 323.2999, y: 484.4284, z: 0}
+  m_LocalScale: {x: 246.6947, y: 321.22775, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2758,13 +2758,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b5ed1fa379d2942897f0e607f3a5e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Systems.DataCollectible
-  dataValue: 1
-  collectRadius: 0.5
+  dataValue: 10
+  collectRadius: 3
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   collectEffectPrefab: {fileID: 0}
-  floatAmplitude: 0.1
+  floatAmplitude: 20
   floatSpeed: 2
   rotationSpeed: 90
   collectSound: {fileID: 0}
@@ -2814,8 +2814,8 @@ Transform:
   m_GameObject: {fileID: 1667558839}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 774.7092, y: 227.6562, z: 0}
-  m_LocalScale: {x: 150, y: 150, z: 0.5}
+  m_LocalPosition: {x: 1287.7712, y: 484.4284, z: 0}
+  m_LocalScale: {x: 246.6947, y: 321.22775, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2909,8 +2909,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Tutorial.TutorialEnemyCounter
   enemies:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 916218750}
+  - {fileID: 2082201688}
   gate: {fileID: 0}
   OnAllEnemiesDefeated:
     m_PersistentCalls:
@@ -2937,7 +2937,7 @@ Transform:
   m_GameObject: {fileID: 1681437723}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 749, y: 397, z: 0}
+  m_LocalPosition: {x: 1580, y: 397, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3063,7 +3063,7 @@ Transform:
   m_GameObject: {fileID: 1842304757}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 453, y: 364, z: 0}
+  m_LocalPosition: {x: 540, y: 364, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3094,7 +3094,7 @@ Transform:
   m_GameObject: {fileID: 1849259760}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91, y: 219, z: 0}
+  m_LocalPosition: {x: 91, y: 522, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3497,8 +3497,8 @@ Transform:
   m_GameObject: {fileID: 1963117522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.1, y: 226.2, z: 0}
-  m_LocalScale: {x: 90.10124, y: 64.13412, z: 1}
+  m_LocalPosition: {x: 163.5925, y: 481.3098, z: 0}
+  m_LocalScale: {x: 148.18332, y: 137.34439, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1323151943}
@@ -3546,7 +3546,7 @@ MonoBehaviour:
   dropsData: 1
   dataDropAmount: 1
   dataDropPrefab: {fileID: 0}
-  patrolDistance: 5
+  patrolDistance: 100
   patrolPoints: []
   loopPatrol: 1
   projectilePrefab: {fileID: 0}
@@ -3586,7 +3586,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 100
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3712,8 +3712,8 @@ Transform:
   m_GameObject: {fileID: 2082201687}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 888.3, y: 210.5, z: 0}
-  m_LocalScale: {x: 263.95355, y: 264.6205, z: 1}
+  m_LocalPosition: {x: 1474.5686, y: 447.6868, z: 0}
+  m_LocalScale: {x: 434.10626, y: 566.6897, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

@@ -30,7 +30,7 @@ namespace CODEX.Tutorial
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (used || !other.CompareTag("Player")) return;
+            if (used || !other.transform.root.CompareTag("Player")) return;
 
             if (requireCondition && !ConditionMet())
             {

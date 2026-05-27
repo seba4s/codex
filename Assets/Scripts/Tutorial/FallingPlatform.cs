@@ -22,10 +22,31 @@ namespace CODEX.Tutorial
             rb = GetComponent<Rigidbody2D>();
             rb.bodyType = RigidbodyType2D.Kinematic;
             startPosition = transform.position;
+            // Suscribir en Awake, no en OnEnable:
+            // ResetRoutine llama SetActive(false), lo que dispararía OnDisable y
+            // desuscribiría la plataforma antes de que el jugador respawnee.
+            PlayerHealth.OnPlayerRespawned += ResetPlatform;
         }
 
-        private void OnEnable()  => PlayerHealth.OnPlayerRespawned += ResetPlatform;
-        private void OnDisable() => PlayerHealth.OnPlayerRespawned -= ResetPlatform;
+        private void Start()
+        {
+            // Ignorar colisión entre todas las FallingPlatform de la escena.
+            // Se hace una sola vez al inicio — no hay que repetirlo en cada caída.
+            var myCol = GetComponent<Collider2D>();
+            var allPlatforms = FindObjectsByType<FallingPlatform>(FindObjectsInactive.Include);
+            foreach (var other in allPlatforms)
+            {
+                if (other == this) continue;
+                var otherCol = other.GetComponent<Collider2D>();
+                if (otherCol != null)
+                    Physics2D.IgnoreCollision(myCol, otherCol, true);
+            }
+        }
+
+        private void OnDestroy()
+        {
+            PlayerHealth.OnPlayerRespawned -= ResetPlatform;
+        }
 
         private void OnCollisionEnter2D(Collision2D col)
         {

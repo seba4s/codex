@@ -69,10 +69,14 @@ namespace CODEX.Systems
         {
             if (!isCollected && visualPart != null)
             {
-                // Animación de flotación
+                // Flotación en world-space para que floatAmplitude sea independiente
+                // de la escala del padre. localPosition * scaleY enorme = visual fuera de pantalla.
                 float yOffset = Mathf.Sin(Time.time * floatSpeed) * floatAmplitude;
-                visualPart.localPosition = new Vector3(0, yOffset, 0);
-                
+                visualPart.position = new Vector3(
+                    transform.position.x,
+                    transform.position.y + yOffset,
+                    transform.position.z);
+
                 // Rotación suave
                 visualPart.Rotate(0, 0, rotationSpeed * Time.deltaTime);
             }

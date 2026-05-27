@@ -416,6 +416,16 @@ public static class TutorialSceneSetupShared
         var dc = go.AddComponent<DataCollectible>();
         var so = new SerializedObject(dc);
         so.FindProperty("dataValue").intValue = value;
+
+        // playerLayer debe incluir la capa "Player" para que OnTriggerEnter2D detecte al jugador.
+        // Sin esto, (playerLayer.value & ...) siempre da 0 y el colectible nunca se recoge.
+        int playerLayerIndex = LayerMask.NameToLayer("Player");
+        if (playerLayerIndex >= 0)
+            so.FindProperty("playerLayer").intValue = 1 << playerLayerIndex;
+        else
+            Debug.LogWarning($"[CODEX Setup] Capa 'Player' no encontrada. " +
+                             $"Asigna Player Layer manualmente en {goName} → DataCollectible.");
+
         so.ApplyModifiedProperties();
 
         return go;
