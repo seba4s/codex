@@ -94,9 +94,21 @@ namespace CODEX.Tutorial
 
         private IEnumerator LoadSceneWithFade(string sceneName)
         {
-            // Fade out opcional — por ahora carga directa
-            yield return new WaitForSeconds(0.5f);
-            SceneManager.LoadScene(sceneName);
+            // B6 FIX: usar SceneTransition (pixel-glitch) en vez de corte seco
+            // REFACTOR: eliminado el WaitForSeconds(0.5f) — SceneTransition maneja su propio timing
+            if (SceneTransition.Instance != null)
+            {
+                SceneTransition.Instance.CargarEscena(sceneName);
+                yield return null; // frame de cortesía para que la corrutina interna arranque
+            }
+            else
+            {
+                // FALLBACK: SceneTransition no está en escena — carga directa con aviso
+                Debug.LogWarning("[TutorialManager] SceneTransition.Instance es null — " +
+                                 "carga directa sin glitch. Añade el prefab SceneTransition a la escena.");
+                yield return new WaitForSeconds(0.5f);
+                SceneManager.LoadScene(sceneName);
+            }
         }
 
         // Reinicia todos los datos (para nueva partida)
@@ -105,6 +117,14 @@ namespace CODEX.Tutorial
             DataCollected = 0;
             TerminalsActivated = 0;
             CurrentBlock = 0;
+        }
+
+        // T08 FIX: T05 activa 1 terminal; si no se reinicia al entrar a T08 la cuenta ya es 1
+        // y FirstFileKeyEvent dispara tras solo 2 terminales en vez de 3.
+        // Block08_PuertoSalida llama este método en Start() para garantizar que la cuenta empieza en 0.
+        public void ResetTerminals()
+        {
+            TerminalsActivated = 0;
         }
     }
 }

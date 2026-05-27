@@ -14,13 +14,18 @@ namespace CODEX.Tutorial.Blocks
 
         private void Start()
         {
+            // T08 FIX: T05 ya activó 1 terminal antes de llegar aquí.
+            // Reiniciar la cuenta para que los 3 terminales de T08 sean los que disparan el cutscene.
+            TutorialManager.Instance?.ResetTerminals();
             StartCoroutine(IntroDialogue());
         }
 
         private IEnumerator IntroDialogue()
         {
             yield return new WaitForSeconds(1f);
-            luma?.Say("Tercer terminal. Después de este, el puerto de salida.");
+            // FIX B4: texto anterior era copia de Block07 ("Tercer terminal...").
+            // Block08 es el puerto de salida — el jugador ya está aquí.
+            luma?.Say("Puerto de salida detectado. Activa los terminales y prepárate para transferirte.");
         }
     }
 }

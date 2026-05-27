@@ -41,5 +41,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Opciones.unity
     guid: 552d8e527b015584dafc7050f7890e03
+  - enabled: 1
+    path: Assets/Scenes/Nivel 1/Nivel1_DiscoDuro.unity
+    guid: 4d015e0c6672c0449852412b74ef214e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

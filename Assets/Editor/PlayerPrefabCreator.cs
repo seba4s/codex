@@ -167,11 +167,11 @@ namespace CODEX.Editor
             ssSO.FindProperty("targetLayers").intValue = GetEnemyLayerMask();
             ssSO.ApplyModifiedProperties();
 
-            // ── HealthSystem ──────────────────────────────────────────────
-            var hs = root.AddComponent<CODEX.Systems.HealthSystem>();
-            var hsSO = new SerializedObject(hs);
-            hsSO.FindProperty("gogglesRenderer").objectReferenceValue = gogglesSR;
-            hsSO.ApplyModifiedProperties();
+            // ── PlayerHealth ──────────────────────────────────────────── // REFACTOR: era HealthSystem
+            var ph = root.AddComponent<CODEX.Player.PlayerHealth>();
+            var phSO = new SerializedObject(ph);
+            phSO.FindProperty("gogglesRenderer").objectReferenceValue = gogglesSR;
+            phSO.ApplyModifiedProperties();
 
             // ── AudioSource (para disparos) ───────────────────────────────
             root.AddComponent<AudioSource>();

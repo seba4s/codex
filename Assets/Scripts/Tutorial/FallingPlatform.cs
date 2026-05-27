@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using CODEX.Player;
 
 namespace CODEX.Tutorial
 {
@@ -23,19 +24,22 @@ namespace CODEX.Tutorial
             startPosition = transform.position;
         }
 
+        private void OnEnable()  => PlayerHealth.OnPlayerRespawned += ResetPlatform;
+        private void OnDisable() => PlayerHealth.OnPlayerRespawned -= ResetPlatform;
+
         private void OnCollisionEnter2D(Collision2D col)
         {
             if (isFalling || isResetting) return;
-            if (!col.gameObject.CompareTag("Player")) return;
+            // Buscar en el root — el collider puede estar en un hijo sin tag "Player"
+            if (!col.transform.root.CompareTag("Player")) return;
 
-            // Solo cae si el jugador aterriza encima
-            foreach (ContactPoint2D contact in col.contacts)
+            // Solo cae si el jugador está ENCIMA de la plataforma.
+            // Usamos posición Y en lugar de contact.normal para evitar ambigüedad:
+            // en Unity 2D, la dirección del normal depende de cuál cuerpo es kinematic/dynamic
+            // y cambia entre versiones. Comparar Y es inequívoco.
+            if (col.transform.root.position.y > transform.position.y)
             {
-                if (contact.normal.y < -0.5f)
-                {
-                    StartCoroutine(FallRoutine());
-                    break;
-                }
+                StartCoroutine(FallRoutine());
             }
         }
 

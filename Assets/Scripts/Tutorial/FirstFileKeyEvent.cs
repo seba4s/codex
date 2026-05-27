@@ -90,8 +90,28 @@ namespace CODEX.Tutorial
             if (filePanel != null) filePanel.SetActive(false);
             if (exitPort != null) exitPort.SetActive(true);
 
-            // Restaurar input
+            // Restaurar input — el jugador tiene 2s para ver el puerto encenderse
             player?.SetInputEnabled(true);
+
+            // B7 FIX (F2): el juego se quedaba suspendido aquí — no había transición al Nivel 1.
+            // Opción A: auto-transición 2s después del puerto, con pixel-glitch temático.
+            // IMPORTANTE: "Nivel1_DiscoDuro" debe estar en File → Build Settings.
+            yield return new WaitForSeconds(2f);
+
+            // Marcar tutorial completo en el manager global (si existe)
+            TutorialManager.Instance?.OnTutorialComplete?.Invoke();
+
+            if (SceneTransition.Instance != null)
+            {
+                SceneTransition.Instance.CargarEscena("Nivel1_DiscoDuro");
+            }
+            else
+            {
+                // FALLBACK: SceneTransition no en escena — carga directa
+                Debug.LogWarning("[FirstFileKeyEvent] SceneTransition no encontrado — " +
+                                 "carga directa sin glitch. Añade el prefab SceneTransition.");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel1_DiscoDuro");
+            }
         }
     }
 }

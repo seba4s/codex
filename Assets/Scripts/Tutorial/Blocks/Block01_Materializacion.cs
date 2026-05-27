@@ -12,8 +12,9 @@ namespace CODEX.Tutorial.Blocks
     {
         [SerializeField] private DiagnosticBootScreen bootScreen;
         [SerializeField] private LumaGuide luma;
-        [SerializeField] private GameObject playerPrefab;
-        [SerializeField] private Transform spawnPoint;
+        // C4 FIX (F5): playerPrefab y spawnPoint eliminados — nunca se usaron en RunBlock().
+        // El jugador de T01 existe en la escena desde el inicio; no se spawna dinámicamente.
+        // Si en el futuro se necesita spawn procedural, reimplementar aquí con CheckpointManager.
         [SerializeField] private GameObject doorToT02;
 
         private void Start()

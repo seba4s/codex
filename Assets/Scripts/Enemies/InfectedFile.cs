@@ -15,7 +15,8 @@ namespace CODEX.Enemies
             TypeB_Patrol,      // Se mueve de lado a lado, requiere timing (Bloque 7)
             TypeC_Projectile,  // Dispara rayos lentos, requiere esquive (Bloque 7)
             TypeD_Melee,       // Ataque cuerpo a cuerpo
-            TypeE_Special      // Enemigo especial/boss
+            // P7 FIX: TypeE_Special eliminado — no existe en el juego, no tiene implementación.
+            // Si se necesita un boss en el futuro, crear EnemyType en un archivo separado.
         }
         
         [Header("Configuración del Enemigo")]
@@ -196,64 +197,50 @@ namespace CODEX.Enemies
         private void UpdatePatrolBehavior(bool isStunned)
         {
             if (isStunned) return;
-            
-            if (patrolPoints.Length > 0)
-            {
-                // Seguir puntos de patrulla
-                Transform target = patrolPoints[currentPatrolIndex];
-                Vector2 direction = (target.position - transform.position).normalized;
-                
-                // Moverse hacia el punto
-                if (rb != null)
-                {
-                    rb.linearVelocity = direction * moveSpeed;
-                }
-                
-                // Chequear si llegó al punto
-                float distance = Vector2.Distance(transform.position, target.position);
-                if (distance < 0.2f)
-                {
-                    currentPatrolIndex = GetNextPatrolIndex();
-                }
-            }
-            else
-            {
-                // Patrulla simple de lado a lado
-                Vector2 patrolVector = Vector2.right * patrolDirection;
-                
-                if (transform.position.x > startPosition.x + patrolDistance)
-                {
-                    patrolDirection = -1f;
-                }
-                else if (transform.position.x < startPosition.x - patrolDistance)
-                {
-                    patrolDirection = 1f;
-                }
-                
-                if (rb != null)
-                {
-                    rb.linearVelocity = new Vector2(patrolDirection * moveSpeed, rb.linearVelocity.y);
-                }
-            }
-            
-            // Perseguir al jugador si está cerca
-            if (playerTransform != null && Vector2.Distance(transform.position, playerTransform.position) < 5f)
+
+            // ── Detección: perseguir si el jugador está en rango, patrullar si no ──
+            // Usa attackRange como radio de detección (configura en el Inspector).
+            bool playerDetected = playerTransform != null &&
+                                  Vector2.Distance(transform.position, playerTransform.position) < attackRange;
+
+            if (playerDetected)
             {
                 isAggroed = true;
-                Vector2 playerDirection = (playerTransform.position - transform.position).normalized;
-                
+                // Solo movimiento horizontal — el enemigo permanece en la plataforma
+                float dirX = Mathf.Sign(playerTransform.position.x - transform.position.x);
                 if (rb != null)
-                {
-                    rb.linearVelocity = playerDirection * (moveSpeed * 1.5f);
-                }
+                    rb.linearVelocity = new Vector2(dirX * moveSpeed * 1.5f, rb.linearVelocity.y);
             }
             else
             {
                 isAggroed = false;
+
+                // Patrullar entre waypoints asignados
+                if (patrolPoints != null && patrolPoints.Length > 0)
+                {
+                    Transform target = patrolPoints[currentPatrolIndex];
+                    float dirX = Mathf.Sign(target.position.x - transform.position.x);
+                    if (rb != null)
+                        rb.linearVelocity = new Vector2(dirX * moveSpeed, rb.linearVelocity.y);
+
+                    if (Mathf.Abs(transform.position.x - target.position.x) < 0.5f)
+                        currentPatrolIndex = GetNextPatrolIndex();
+                }
+                else
+                {
+                    // Patrulla simple de lado a lado usando patrolDistance
+                    if (transform.position.x > startPosition.x + patrolDistance)
+                        patrolDirection = -1f;
+                    else if (transform.position.x < startPosition.x - patrolDistance)
+                        patrolDirection = 1f;
+
+                    if (rb != null)
+                        rb.linearVelocity = new Vector2(patrolDirection * moveSpeed, rb.linearVelocity.y);
+                }
             }
-            
-            // Rotar sprite según dirección
-            if (rb != null && rb.linearVelocity.x != 0)
+
+            // Voltear sprite según dirección horizontal
+            if (rb != null && Mathf.Abs(rb.linearVelocity.x) > 0.1f)
             {
                 Vector3 scale = transform.localScale;
                 scale.x = Mathf.Abs(scale.x) * Mathf.Sign(rb.linearVelocity.x);

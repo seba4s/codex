@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using CODEX.Player;                                            // BREAKING: era CODEX.Systems (HealthSystem eliminado)
 
 namespace CODEX.Tutorial.Blocks
 {
@@ -13,6 +14,7 @@ namespace CODEX.Tutorial.Blocks
         [SerializeField] private TutorialHUD hud;
 
         private bool dashTipShown;
+        private PlayerHealth playerHealth;                     // REFACTOR: era HealthSystem (campo local para OnDestroy)
 
         private void Start()
         {
@@ -22,12 +24,18 @@ namespace CODEX.Tutorial.Blocks
             var player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
-                var health = player.GetComponent<CODEX.Systems.HealthSystem>();
-                if (health != null)
-                    health.OnDamaged += HandlePlayerDamaged;
+                playerHealth = player.GetComponent<PlayerHealth>(); // REFACTOR: era HealthSystem
+                if (playerHealth != null)
+                    playerHealth.OnDamaged.AddListener(HandlePlayerDamaged); // FIX: era HealthSystem.OnDamaged (System.Action); ahora UnityEvent<int>
             }
 
             StartCoroutine(IntroDialogue());
+        }
+
+        private void OnDestroy()                                             // FIX: faltaba — memory leak corregido
+        {
+            if (playerHealth != null)
+                playerHealth.OnDamaged.RemoveListener(HandlePlayerDamaged);
         }
 
         private IEnumerator IntroDialogue()
@@ -38,7 +46,7 @@ namespace CODEX.Tutorial.Blocks
             luma?.Say("LUMA", "Cruza hasta la salida al fondo. Aprende el ritmo — se apagan cada 1.5 segundos.");
         }
 
-        private void HandlePlayerDamaged()
+        private void HandlePlayerDamaged(int _)                             // FIX: firma adaptada a UnityEvent<int>; parámetro ignorado
         {
             if (dashTipShown) return;
             dashTipShown = true;

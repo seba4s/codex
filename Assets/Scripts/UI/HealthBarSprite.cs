@@ -1,34 +1,46 @@
 using UnityEngine;
 using UnityEngine.UI;
-using CODEX.Systems;
+using CODEX.Player;
 
 namespace CODEX.UI
 {
     /// <summary>
-    /// Muestra la barra de vida usando sprites del sheet ui x1.png.
-    /// healthSprites[0] = vida vacía, healthSprites[last] = vida llena.
+    /// Barra de salud persistente entre escenas.
+    /// Mantiene el sprite que el usuario asignó al Image y controla
+    /// únicamente fillAmount para que la barra se vacíe horizontalmente.
+    /// No crea ningún hijo ni modifica el sprite.
     /// </summary>
     public class HealthBarSprite : MonoBehaviour
     {
-        [SerializeField] private Image displayImage;
-        [SerializeField] private Sprite[] healthSprites;
+        private Image        bar;
+        private PlayerHealth health;
 
-        private HealthSystem health;
+        // ── Lifecycle ────────────────────────────────────────────────────────────
 
         private void Start()
         {
-            // Mostrar sprite de vida llena por defecto (último del array)
-            if (displayImage != null && healthSprites != null && healthSprites.Length > 0)
-                displayImage.sprite = healthSprites[healthSprites.Length - 1];
+            if (GetComponentInParent<Canvas>() == null)
+            {
+                Debug.LogError("[HealthBarSprite] Debe estar dentro de un Canvas.", this);
+                enabled = false;
+                return;
+            }
 
-            var player = GameObject.FindGameObjectWithTag("Player");
-            if (player == null) { Debug.LogWarning("[HealthBarSprite] No se encontró Player."); return; }
+            bar = GetComponent<Image>();
+            if (bar == null)
+            {
+                Debug.LogError("[HealthBarSprite] Falta el componente Image en " + name, this);
+                enabled = false;
+                return;
+            }
 
-            health = player.GetComponent<HealthSystem>();
-            if (health == null) { Debug.LogWarning("[HealthBarSprite] Player no tiene HealthSystem."); return; }
+            // Activar modo fill sin tocar el sprite ni el color del usuario
+            bar.type       = Image.Type.Filled;
+            bar.fillMethod = Image.FillMethod.Horizontal;
+            bar.fillOrigin = 0;   // de izquierda a derecha
+            bar.fillAmount = 1f;
 
-            health.OnHealthChanged += OnHealthChanged;
-            OnHealthChanged(health.CurrentHealth, health.MaxHealth);
+            InvokeRepeating(nameof(TryFindHealth), 0f, 0.2f);
         }
 
         private void OnDestroy()
@@ -37,14 +49,32 @@ namespace CODEX.UI
                 health.OnHealthChanged -= OnHealthChanged;
         }
 
+        // ── Búsqueda de PlayerHealth ─────────────────────────────────────────────
+
+        private void TryFindHealth()
+        {
+            if (health != null) { CancelInvoke(nameof(TryFindHealth)); return; }
+
+            var go = GameObject.FindGameObjectWithTag("Player");
+            if (go == null) return;
+
+            health = go.GetComponent<PlayerHealth>()
+                  ?? go.GetComponentInChildren<PlayerHealth>()
+                  ?? FindAnyObjectByType<PlayerHealth>();
+
+            if (health == null) return;
+
+            CancelInvoke(nameof(TryFindHealth));
+            health.OnHealthChanged += OnHealthChanged;
+            OnHealthChanged(health.CurrentHP, health.MaxHP);
+        }
+
+        // ── Actualizar fill ──────────────────────────────────────────────────────
+
         private void OnHealthChanged(int current, int max)
         {
-            if (displayImage == null || healthSprites == null || healthSprites.Length == 0) return;
-
-            float fraction = max > 0 ? (float)current / max : 0f;
-            int index = Mathf.RoundToInt(fraction * (healthSprites.Length - 1));
-            index = Mathf.Clamp(index, 0, healthSprites.Length - 1);
-            displayImage.sprite = healthSprites[index];
+            if (bar == null || max <= 0) return;
+            bar.fillAmount = Mathf.Clamp01((float)current / max);
         }
     }
 }

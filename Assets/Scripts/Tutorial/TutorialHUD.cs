@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using CODEX.Player;                                            // BREAKING: era CODEX.Systems (HealthSystem eliminado)
 
 namespace CODEX.Tutorial
 {
@@ -23,13 +24,12 @@ namespace CODEX.Tutorial
         [Header("Indicador de esquive — aparece en Bloque 4")]
         [SerializeField] private GameObject dashIndicatorRoot;
 
-        private CODEX.Systems.HealthSystem health;
+        private PlayerHealth health;                           // REFACTOR: era HealthSystem
         private TutorialManager tm;
 
         private void Start()
         {
-            // Ocultar elementos hasta que sean necesarios
-            if (dataCounterRoot != null)    dataCounterRoot.SetActive(false);
+            if (dataCounterRoot != null)     dataCounterRoot.SetActive(false);
             if (terminalCounterRoot != null) terminalCounterRoot.SetActive(false);
             if (dashIndicatorRoot != null)   dashIndicatorRoot.SetActive(false);
 
@@ -40,15 +40,14 @@ namespace CODEX.Tutorial
                 tm.OnTerminalActivated += HandleTerminalActivated;
             }
 
-            // Buscar el sistema de salud del jugador
             var player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
-                health = player.GetComponent<CODEX.Systems.HealthSystem>();
+                health = player.GetComponent<PlayerHealth>();  // REFACTOR: era HealthSystem
                 if (health != null)
                 {
                     health.OnHealthChanged += UpdateHealthBar;
-                    UpdateHealthBar(health.CurrentHealth, health.MaxHealth);
+                    UpdateHealthBar(health.CurrentHP, health.MaxHP); // REFACTOR: era CurrentHealth / MaxHealth
                 }
             }
 

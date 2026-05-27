@@ -26,7 +26,10 @@ namespace CODEX.Tutorial.Blocks
             luma?.Say("Si caes, no te preocupes. El sistema tiene puntos de restauración. Pero... trata de no caer.");
         }
 
-        // Llamado por CheckpointTrigger al cruzar las 4 plataformas
+        // C3 FIX (D4): IMPORTANTE — este método DEBE estar conectado vía UnityEvent en el Inspector.
+        // Trigger: CheckpointTrigger colocado al final de la secuencia de 4 plataformas colapsables.
+        // Si no está conectado, el diálogo de cierre nunca se muestra (falla silenciosa).
+        // Wiring: CheckpointTrigger.OnPlayerPassed → Block06_Plataformas.OnSequenceCleared()
         public void OnSequenceCleared()
         {
             luma?.Say("Sector cruzado. Esas plataformas existen en todo el Ciberespacio. Recuérdalo.");

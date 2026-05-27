@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 137034856}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,9 +182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Tutorial.GroundHazard
   activeTime: 1
   inactiveTime: 1.5
-  damageAmount: 1
+  damageAmount: 10
   visualEffect: {fileID: 972228023}
-  hazardParticles: {fileID: 0}
 --- !u!61 &362113368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -310,6 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Tutorial.TutorialSceneLoader
   requireCondition: 0
   conditionNotMetMessage: Completa el objetivo primero.
+  enemyCondition: {fileID: 0}
 --- !u!61 &406715213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -642,9 +642,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Tutorial.GroundHazard
   activeTime: 1
   inactiveTime: 1.5
-  damageAmount: 1
+  damageAmount: 10
   visualEffect: {fileID: 1406223322}
-  hazardParticles: {fileID: 0}
 --- !u!61 &608244668
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -716,7 +715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 621590249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1744,6 +1743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Tutorial.TutorialSceneLoader
   requireCondition: 0
   conditionNotMetMessage: Completa el objetivo primero.
+  enemyCondition: {fileID: 0}
 --- !u!61 &1568209690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1852,7 +1852,9 @@ GameObject:
   - component: {fileID: 1653064489}
   - component: {fileID: 1653064488}
   - component: {fileID: 1653064487}
-  m_Layer: 0
+  - component: {fileID: 1653064496}
+  - component: {fileID: 1653064495}
+  m_Layer: 3
   m_Name: Player_Tutorial
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1871,9 +1873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61fe0f3c2b277e6428c342f1dc54102f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Systems.HealthSystem
-  maxHealth: 5
-  invincibilityAfterHit: 1.2
-  gogglesRenderer: {fileID: 0}
 --- !u!95 &1653064488
 Animator:
   serializedVersion: 7
@@ -2093,6 +2092,56 @@ Transform:
   - {fileID: 137034856}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1653064495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653064486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41aeb36bedcdb5a458542a0091bb2097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CODEX.Player.PlayerHealth
+  maxHP: 100
+  respawnHP: 100
+  invincibilityDuration: 1
+  knockbackForce: 6
+  respawnDelay: 1.5
+  contactDamage: 10
+  currentCheckpoint: {fileID: 0}
+  gogglesRenderer: {fileID: 0}
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDied:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1653064496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653064486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7f66897197d39409f9989460fb9c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CODEX.UI.HealthBarSprite
+  displayImage: {fileID: 1352519594}
+  healthSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1677295339
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,9 +2419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CODEX.Tutorial.GroundHazard
   activeTime: 1
   inactiveTime: 1.5
-  damageAmount: 0
+  damageAmount: 10
   visualEffect: {fileID: 1280258451}
-  hazardParticles: {fileID: 0}
 --- !u!61 &1840275249
 BoxCollider2D:
   m_ObjectHideFlags: 0

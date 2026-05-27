@@ -86,6 +86,7 @@ namespace CODEX.Player
         private float dashCooldownTimer;
         private int airDashesRemaining;
         private Vector2 dashDirection;
+        private float originalGravityScale;
 
         private bool inputEnabled = true;
         private bool isInvincible;
@@ -130,6 +131,7 @@ namespace CODEX.Player
             rb.freezeRotation = true;
             rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
             rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+            originalGravityScale = rb.gravityScale;   // guardar para restaurar tras el dash
 
             SetupInputActions();
         }
@@ -313,6 +315,7 @@ namespace CODEX.Player
 
         private void HandleJumpBuffer()
         {
+            if (isDashing) return;            // bloquear salto mientras dura el dash
             if (jumpBufferTimer > 0f && coyoteTimer > 0f)
             {
                 if (showDebugLogs)
@@ -370,6 +373,7 @@ namespace CODEX.Player
             isDashing = true;
             canDash = false;
             dashTimer = dashDuration;
+            jumpBufferTimer = 0f;             // cancelar salto en cola al iniciar dash
 
             if (dashInvincible)
                 isInvincible = true;
@@ -400,7 +404,7 @@ namespace CODEX.Player
         {
             isDashing = false;
             isInvincible = false;
-            rb.gravityScale = 3f;
+            rb.gravityScale = originalGravityScale;   // restaurar gravedad del Inspector
             rb.linearVelocity = new Vector2(rb.linearVelocity.x * 0.3f, 0f);
             dashCooldownTimer = dashCooldown;
 

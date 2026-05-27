@@ -1,4 +1,5 @@
 using UnityEngine;
+using CODEX.Player;                                            // BREAKING: era CODEX.Systems (HealthSystem eliminado)
 
 namespace CODEX.Tutorial
 {
@@ -15,6 +16,7 @@ namespace CODEX.Tutorial
         private Transform activeCheckpoint;
 
         private LumaGuide luma;
+        private PlayerHealth playerHealth;                     // REFACTOR: era HealthSystem
 
         private void Awake()
         {
@@ -31,37 +33,33 @@ namespace CODEX.Tutorial
             activeCheckpoint = defaultSpawn != null ? defaultSpawn : transform;
             luma = FindAnyObjectByType<LumaGuide>();
 
-            // Escuchar muerte del jugador
             var player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
-                var health = player.GetComponent<CODEX.Systems.HealthSystem>();
-                if (health != null)
-                    health.OnDeath += HandlePlayerDeath;
+                playerHealth = player.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.OnDied.AddListener(HandlePlayerDeath); // FIX: era HealthSystem.OnDeath (System.Action)
+                    playerHealth.SetCheckpoint(activeCheckpoint);       // FIX: sincronizar checkpoint inicial
+                }
             }
+        }
+
+        private void OnDestroy()                                        // FIX: faltaba — memory leak corregido
+        {
+            if (playerHealth != null)
+                playerHealth.OnDied.RemoveListener(HandlePlayerDeath);
         }
 
         public void SetCheckpoint(Transform cp)
         {
             activeCheckpoint = cp;
+            playerHealth?.SetCheckpoint(cp);                            // FIX: sincronizar checkpoint en PlayerHealth
         }
 
         private void HandlePlayerDeath()
         {
-            var player = GameObject.FindGameObjectWithTag("Player");
-            if (player == null) return;
-
-            // Restaurar posición
-            var pc = player.GetComponent<CODEX.Player.PlayerController>();
-            if (pc != null)
-                pc.TeleportTo(activeCheckpoint.position);
-            else
-                player.transform.position = activeCheckpoint.position;
-
-            // Restaurar salud a 3
-            var health = player.GetComponent<CODEX.Systems.HealthSystem>();
-            health?.Revive(3);
-
+            // FIX: teleporte y restauración de HP manejados por PlayerHealth.Respawn()
             luma?.Say("El sistema te restauró. Sigue. No cuenta.");
         }
     }

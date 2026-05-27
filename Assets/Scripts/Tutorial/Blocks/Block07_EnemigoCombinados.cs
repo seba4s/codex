@@ -25,7 +25,10 @@ namespace CODEX.Tutorial.Blocks
             luma?.Say("Ignóralo. Concéntrate. Hay datos en ese corredor y dos archivos infectados de tipo combinado. Ya sabes qué hacer.");
         }
 
-        // Llamado al limpiar el segundo grupo de enemigos
+        // C3 FIX (D3): IMPORTANTE — este método DEBE estar conectado vía UnityEvent en el Inspector.
+        // Trigger: TutorialEnemyCounter del segundo grupo de enemigos del corredor.
+        // Si no está conectado, el anuncio del tercer terminal nunca ocurre (falla silenciosa).
+        // Wiring: TutorialEnemyCounter.OnAllDefeated → Block07_EnemigoCombinados.OnSecondGroupCleared()
         public void OnSecondGroupCleared()
         {
             StartCoroutine(AnnounceLastTerminal());

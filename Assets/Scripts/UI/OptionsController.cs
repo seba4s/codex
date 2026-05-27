@@ -104,11 +104,15 @@ public class OptionsController : MonoBehaviour
 
     void GuardarOpciones()
     {
-        if (sliderMusica  != null) PlayerPrefs.SetFloat(KEY_MUSICA,   sliderMusica.value);
-        if (sliderEfectos != null) PlayerPrefs.SetFloat(KEY_EFECTOS,  sliderEfectos.value);
-        if (togglePantallaCompleta != null) PlayerPrefs.SetInt(KEY_FULLSCREEN, togglePantallaCompleta.isOn ? 1 : 0);
+        if (sliderMusica           != null) PlayerPrefs.SetFloat(KEY_MUSICA,    sliderMusica.value);
+        if (sliderEfectos          != null) PlayerPrefs.SetFloat(KEY_EFECTOS,   sliderEfectos.value);
+        if (togglePantallaCompleta != null) PlayerPrefs.SetInt(KEY_FULLSCREEN,  togglePantallaCompleta.isOn ? 1 : 0);
+        // D3 GAP FIX: índice de resolución no se guardaba — al reiniciar GameBootstrap leía el valor viejo
+        if (dropdownResolucion     != null) PlayerPrefs.SetInt(KEY_RESOLUCION,  dropdownResolucion.value);
         PlayerPrefs.Save();
+#if UNITY_EDITOR
         Debug.Log("[Opciones] Opciones guardadas.");
+#endif
     }
 
     // ─── Callbacks de UI ─────────────────────────────────────────────────────

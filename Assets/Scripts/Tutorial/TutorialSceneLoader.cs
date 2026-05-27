@@ -13,6 +13,12 @@ namespace CODEX.Tutorial
         [SerializeField] private bool requireCondition = false;
         [SerializeField] private string conditionNotMetMessage = "Completa el objetivo primero.";
 
+        [Header("Condición de enemigos (opcional)")]
+        // D2 FIX (F3): si se asigna, ConditionMet() espera a que todos los enemigos estén derrotados.
+        // Uso: requireCondition = true + asignar este campo en Inspector.
+        // Si es null, ConditionMet() devuelve true (comportamiento base sin restricción).
+        [SerializeField] private TutorialEnemyCounter enemyCondition;
+
         private LumaGuide luma;
         private bool used;
 
@@ -38,7 +44,16 @@ namespace CODEX.Tutorial
                 TutorialManager.Instance.LoadNextBlock();
         }
 
-        protected virtual bool ConditionMet() => true;
+        // D2 FIX (F3): implementación concreta en vez de siempre-true.
+        // Patrón: template method — subclases pueden override para condiciones personalizadas.
+        // Sin enemyCondition asignado → true (sin restricción, comportamiento original).
+        // Con enemyCondition asignado → true solo si TutorialEnemyCounter.AllDefeated.
+        protected virtual bool ConditionMet()
+        {
+            if (enemyCondition != null)
+                return enemyCondition.AllDefeated;
+            return true;
+        }
 
         private void OnDrawGizmosSelected()
         {

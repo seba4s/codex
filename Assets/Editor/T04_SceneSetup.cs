@@ -6,7 +6,7 @@ using UnityEngine.Rendering.Universal;
 using TMPro;
 using CODEX.Tutorial;
 using CODEX.Tutorial.Blocks;
-using CODEX.Systems;
+using CODEX.Player;                                            // BREAKING: era CODEX.Systems (HealthSystem eliminado)
 
 /// <summary>
 /// Configura T04_DanoYEsquive. Mismo layout que T01/T02/T03.
@@ -179,8 +179,8 @@ public static class T04_SceneSetup
             anim.runtimeAnimatorController = ctrl;
         }
 
-        if (player.GetComponent<HealthSystem>() == null)
-            Undo.AddComponent<HealthSystem>(player);
+        if (player.GetComponent<PlayerHealth>() == null)          // REFACTOR: era HealthSystem
+            Undo.AddComponent<PlayerHealth>(player);
 
         return player;
     }
@@ -311,11 +311,11 @@ public static class T04_SceneSetup
         so.FindProperty("dashIndicatorRoot").objectReferenceValue = dashRoot;
         so.ApplyModifiedProperties();
 
-        // Asegurar que el HealthSystem del player tenga la barra conectada
+        // Asegurar que el PlayerHealth del player esté presente     // REFACTOR: era HealthSystem
         if (player != null)
         {
-            var hs = player.GetComponent<HealthSystem>();
-            if (hs == null) hs = Undo.AddComponent<HealthSystem>(player);
+            var ph = player.GetComponent<PlayerHealth>();
+            if (ph == null) ph = Undo.AddComponent<PlayerHealth>(player);
         }
 
         return hudComp;

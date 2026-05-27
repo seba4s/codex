@@ -17,6 +17,10 @@ namespace CODEX.Tutorial
 
         private int defeated;
 
+        // D2 FIX (F3): propiedad pública para que TutorialSceneLoader pueda consultar el estado
+        // sin polling — lectura directa de campo en el momento del trigger.
+        public bool AllDefeated => enemies.Length > 0 && defeated >= enemies.Length;
+
         private void Start()
         {
             foreach (var e in enemies)

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using CODEX.Player;                                            // BREAKING: era CODEX.Systems (HealthSystem eliminado)
 
 namespace CODEX.Tutorial
 {
@@ -19,11 +20,9 @@ namespace CODEX.Tutorial
 
         private void Start()
         {
-            // Detectar todas las capas que puedan ser el jugador
             int layerPlayer  = LayerMask.NameToLayer("Player");
             int layerDefault = LayerMask.NameToLayer("Default");
 
-            // Usar Player layer si existe, si no, usar Default como fallback
             playerMask = layerPlayer >= 0
                 ? (1 << layerPlayer)
                 : (1 << layerDefault);
@@ -59,11 +58,12 @@ namespace CODEX.Tutorial
             Collider2D hit = Physics2D.OverlapBox(transform.position, size, 0f, playerMask);
             if (hit == null) return;
 
-            var health = hit.GetComponentInParent<CODEX.Systems.HealthSystem>()
-                      ?? hit.transform.root.GetComponent<CODEX.Systems.HealthSystem>();
+            // REFACTOR: era HealthSystem; ahora usa PlayerHealth directamente
+            var health = hit.GetComponentInParent<PlayerHealth>()
+                      ?? hit.transform.root.GetComponent<PlayerHealth>();
             if (health == null) return;
 
-            health.TakeDamage(damageAmount);
+            health.TakeDamage(damageAmount, transform.position);
             damageCD = 1f;
         }
 

@@ -33,11 +33,14 @@ namespace CODEX.Systems
         
         public int DataValue => dataValue;
         public bool IsCollected => isCollected;
+
+        // B8 FIX: evento para suscriptores externos — elimina necesidad de polling en Update()
+        public System.Action OnCollected;
         
         private void Awake()
         {
             startPosition = transform.position;
-            
+
             // Buscar la parte visual
             foreach (Transform child in transform)
             {
@@ -47,22 +50,19 @@ namespace CODEX.Systems
                     break;
                 }
             }
-            
-            // Buscar DataManager
-            dataManager = FindAnyObjectByType<DataManager>();
-            if (dataManager == null)
-            {
-                GameObject managerObj = new GameObject("DataManager");
-                dataManager = managerObj.AddComponent<DataManager>();
-            }
+            // B2 FIX: NO crear DataManager aquí — múltiples Awakes simultáneos causaban
+            // race condition (cada DataCollectible veía null y creaba su propio DataManager).
+            // El singleton se resuelve en Start(), después de todos los Awakes.
         }
         
         private void Start()
         {
+            // B2 FIX: resolver singleton DESPUÉS de todos los Awakes para evitar race condition
+            if (dataManager == null)
+                dataManager = DataManager.Instance;
+
             if (isCollected)
-            {
                 gameObject.SetActive(false);
-            }
         }
         
         private void Update()
@@ -78,18 +78,9 @@ namespace CODEX.Systems
             }
         }
         
-        private void FixedUpdate()
-        {
-            if (isCollected) return;
-            
-            // Chequear si el jugador está cerca
-            Collider2D player = Physics2D.OverlapCircle(transform.position, collectRadius, playerLayer);
-            if (player != null)
-            {
-                Collect(player.gameObject);
-            }
-        }
-        
+        // C2 FIX (D7): eliminado FixedUpdate + OverlapCircle — mecanismo redundante con OnTriggerEnter2D.
+        // REQUISITO: el Collider2D de este GameObject DEBE tener isTrigger = true en el Inspector.
+        // collectRadius se conserva solo para OnDrawGizmos (visualización en editor).
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (isCollected) return;
@@ -106,31 +97,33 @@ namespace CODEX.Systems
             
             isCollected = true;
             
-            // Notificar al DataManager local
+            // FIX B1: único punto de notificación — DataManager propaga a TutorialManager internamente
+            // BREAKING: TutorialManager ya no recibe AddData() desde aquí (evita doble conteo)
+            if (dataManager == null) dataManager = DataManager.Instance; // B2 FIX: fallback defensivo
             if (dataManager != null)
                 dataManager.AddData(dataValue);
 
-            // Notificar al TutorialManager global
-            CODEX.Tutorial.TutorialManager.Instance?.AddData(dataValue);
-            
+            // B8 FIX: notificar suscriptores síncronos (TutorialCollectionBlock, etc.)
+            OnCollected?.Invoke();
+
             // Efecto visual
             if (collectEffectPrefab != null)
             {
                 Instantiate(collectEffectPrefab, transform.position, Quaternion.identity);
             }
             
-            // Sonido
+            // D1 FIX (F1): audio de recolección implementado.
+            // PlayClipAtPoint crea un AudioSource temporal en world-space — no necesita componente.
             if (collectSound != null)
-            {
-                // TODO: Implementar sistema de audio
-                // AudioSource.PlayClipAtPoint(collectSound, transform.position, collectVolume);
-            }
+                AudioSource.PlayClipAtPoint(collectSound, transform.position, collectVolume);
             
             // Desactivar o destruir
             gameObject.SetActive(false);
-            
-            // Log para depuración
-            Debug.Log($"Dato recolectado! Valor: {dataValue}");
+
+#if UNITY_EDITOR
+            // D5 FIX (B9): log solo en Editor — en build no compila ni asigna string
+            Debug.Log($"[DataCollectible] Dato recolectado. Valor: {dataValue}, objeto: {name}");
+#endif
         }
         
         public void ResetCollectible()
@@ -171,12 +164,31 @@ namespace CODEX.Systems
         public UnityEvent OnDataGoalReached = new UnityEvent();
         public UnityEvent<string> OnNarrativeMessage = new UnityEvent<string>();
         
+        // B2 FIX: singleton para evitar instancias múltiples creadas por race condition
+        private static DataManager _instance;
+        public static DataManager Instance => _instance;
+
         // === PROPIEDADES PÚBLICAS ===
         public int CurrentData => currentData;
         public int TotalRequired => totalDataRequired;
         public float ProgressPercentage => (float)currentData / totalDataRequired * 100f;
         public bool GoalReached => currentData >= totalDataRequired;
-        
+
+        private void Awake()                                        // B2 FIX: guard singleton
+        {
+            if (_instance != null && _instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+            _instance = this;
+        }
+
+        private void OnDestroy()
+        {
+            if (_instance == this) _instance = null;               // B2 FIX: limpiar al destruir
+        }
+
         private void Start()
         {
             // Actualizar UI inicial
@@ -188,12 +200,16 @@ namespace CODEX.Systems
         public void AddData(int amount = 1)
         {
             if (GoalReached) return;
-            
+
             currentData = Mathf.Min(totalDataRequired, currentData + amount);
-            
+
             // Disparar eventos
             OnDataUpdated.Invoke(currentData, totalDataRequired);
-            
+
+            // FIX B1: DataManager es el único que propaga al TutorialManager global
+            // Flujo canónico: DataCollectible → DataManager → TutorialManager
+            CODEX.Tutorial.TutorialManager.Instance?.AddData(amount);
+
             // Chequear mensajes narrativos
             CheckNarrativeMessages();
             
@@ -304,33 +320,29 @@ namespace CODEX.Systems
         }
         
         // === MÉTODOS DE DEPURACIÓN ===
-        
+
+#if UNITY_EDITOR
+        // D6 FIX (B9): bloque OnGUI completo dentro de #if UNITY_EDITOR.
+        // Antes: if (Application.isEditor) compilaba GUI/GUIStyle/GUILayout en el build — overhead real.
+        // Ahora: stripped totalmente del build — cero código GUI en producción.
         private void OnGUI()
         {
-            if (Application.isEditor)
-            {
-                GUILayout.BeginArea(new Rect(Screen.width - 210, 10, 200, 150));
-                GUILayout.Label("<b>SISTEMA DE DATOS</b>", new GUIStyle(GUI.skin.label) { richText = true });
-                
-                GUILayout.Label($"Datos: {currentData}/{totalDataRequired}");
-                GUILayout.Label($"{ProgressPercentage:F1}% completado");
-                
-                GUILayout.Label($"Objetivo: {(GoalReached ? "<color=green>COMPLETADO</color>" : "<color=yellow>ESPERANDO</color>")}", 
-                              new GUIStyle(GUI.skin.label) { richText = true });
-                
-                if (GUILayout.Button("+10 Datos"))
-                {
-                    AddData(10);
-                }
-                
-                if (GUILayout.Button("Reset"))
-                {
-                    ResetData();
-                }
-                
-                GUILayout.EndArea();
-            }
+            GUILayout.BeginArea(new Rect(Screen.width - 210, 10, 200, 150));
+            GUILayout.Label("<b>SISTEMA DE DATOS</b>", new GUIStyle(GUI.skin.label) { richText = true });
+
+            GUILayout.Label($"Datos: {currentData}/{totalDataRequired}");
+            GUILayout.Label($"{ProgressPercentage:F1}% completado");
+
+            GUILayout.Label(
+                $"Objetivo: {(GoalReached ? "<color=green>COMPLETADO</color>" : "<color=yellow>ESPERANDO</color>")}",
+                new GUIStyle(GUI.skin.label) { richText = true });
+
+            if (GUILayout.Button("+10 Datos")) AddData(10);
+            if (GUILayout.Button("Reset"))     ResetData();
+
+            GUILayout.EndArea();
         }
+#endif
         
         private void OnDrawGizmos()
         {
