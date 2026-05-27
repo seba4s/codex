@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "CODE 7.slnx",
+    "dotnet.defaultSolution": "codex.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
